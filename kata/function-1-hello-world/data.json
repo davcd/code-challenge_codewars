@@ -1,0 +1,71 @@
+{
+  "id": "523b4ff7adca849afe000035",
+  "name": "Function 1 - hello world",
+  "slug": "function-1-hello-world",
+  "category": "reference",
+  "publishedAt": "2013-09-19T20:36:41.798Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "ruby",
+    "python",
+    "java",
+    "haskell",
+    "csharp",
+    "elixir",
+    "r",
+    "php",
+    "objc",
+    "lua",
+    "julia",
+    "groovy",
+    "go",
+    "crystal",
+    "dart",
+    "powershell",
+    "clojure",
+    "nasm",
+    "coffeescript",
+    "c",
+    "shell",
+    "erlang",
+    "rust",
+    "prolog",
+    "swift",
+    "cfml",
+    "racket",
+    "reason",
+    "typescript",
+    "elm",
+    "purescript",
+    "factor",
+    "cpp"
+  ],
+  "url": "https://www.codewars.com/kata/523b4ff7adca849afe000035",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2013-09-19T19:26:47.971Z",
+  "createdBy": {
+    "username": "ineiti",
+    "url": "https://www.codewars.com/users/ineiti"
+  },
+  "description": "### Description:\n\nMake a simple function called **greet** that returns the most-famous \"hello world!\".\n\n### Style Points\n\nSure, this is about as easy as it gets. But how clever can you be to create the most creative hello world you can think of? What is a \"hello world\" solution you would want to show your friends?\n",
+  "totalAttempts": 112770,
+  "totalCompleted": 34752,
+  "totalStars": 209,
+  "voteScore": 1567,
+  "tags": [
+    "Fundamentals",
+    "Functions",
+    "Control Flow",
+    "Basic Language Features"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 6
+  }
+}

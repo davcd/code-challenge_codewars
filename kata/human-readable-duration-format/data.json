@@ -1,0 +1,66 @@
+{
+  "id": "52742f58faf5485cae000b9a",
+  "name": "Human readable duration format",
+  "slug": "human-readable-duration-format",
+  "category": "algorithms",
+  "publishedAt": "2013-11-02T02:14:13.565Z",
+  "approvedAt": "2013-11-20T01:05:01.111Z",
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "clojure",
+    "python",
+    "ruby",
+    "elixir",
+    "php",
+    "haskell",
+    "csharp",
+    "java",
+    "groovy",
+    "swift",
+    "shell",
+    "kotlin",
+    "scala",
+    "cpp",
+    "c",
+    "julia",
+    "racket",
+    "nasm",
+    "fortran",
+    "rust"
+  ],
+  "url": "https://www.codewars.com/kata/52742f58faf5485cae000b9a",
+  "rank": {
+    "id": -4,
+    "name": "4 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2013-11-01T22:46:48.859Z",
+  "createdBy": {
+    "username": "davazp",
+    "url": "https://www.codewars.com/users/davazp"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Your task in order to complete this Kata is to write a function which formats a duration, given as a number of seconds, in a human-friendly way.\n\nThe function must accept a non-negative integer. If it is zero, it just returns `\"now\"`. Otherwise,  the duration is expressed as a combination of `years`, `days`, `hours`, `minutes` and `seconds`.\n\nIt is much easier to understand with an example:\n\n```Fortran\nformatDuration (62)    // returns \"1 minute and 2 seconds\"\nformatDuration (3662)  // returns \"1 hour, 1 minute and 2 seconds\"\n```\n```c\nformatDuration (62)    // returns \"1 minute and 2 seconds\"\nformatDuration (3662)  // returns \"1 hour, 1 minute and 2 seconds\"\n```\n```nasm\nmov edi, 62\ncall fmtduration      ; RAX <- `1 minute and 2 seconds\\0`\n\nmov edi, 3662\ncall fmtduration      ; RAX <- `1 hour, 1 minute and 2 seconds\\0`\n```\n```cpp\nformat_duration(62)    // returns \"1 minute and 2 seconds\"\nformat_duration(3662)  // returns \"1 hour, 1 minute and 2 seconds\"\n```\n```javascript\nformatDuration(62)    // returns \"1 minute and 2 seconds\"\nformatDuration(3662)  // returns \"1 hour, 1 minute and 2 seconds\"\n```\n```python\nformat_duration(62)    # returns \"1 minute and 2 seconds\"\nformat_duration(3662)  # returns \"1 hour, 1 minute and 2 seconds\"\n```\n```ruby\nformat_duration(62)    # returns \"1 minute and 2 seconds\"\nformat_duration(3662)  # returns \"1 hour, 1 minute and 2 seconds\"\n```\n```elixir\nformat_duration(62)    # returns \"1 minute and 2 seconds\"\nformat_duration(3662)  # returns \"1 hour, 1 minute and 2 seconds\"\n```\n```php\nformat_duration(62)    # returns \"1 minute and 2 seconds\"\nformat_duration(3662)  # returns \"1 hour, 1 minute and 2 seconds\"\n```\n```haskell\nformatDuration 62     -- returns \"1 minute and 2 seconds\"\nformatDuration 3662   -- returns \"1 hour, 1 minute and 2 seconds\"\n```\n```java\nTimeFormatter.formatDuration(62)   //returns \"1 minute and 2 seconds\"\nTimeFormatter.formatDuration(3662) //returns \"1 hour, 1 minute and 2 seconds\"\n```\n```groovy\nKata.formatDuration(62)   //returns \"1 minute and 2 seconds\"\nKata.formatDuration(3662) //returns \"1 hour, 1 minute and 2 seconds\"\n```\n```shell\nduration 62            # echos \"1 minute and 2 seconds\"\nduration 3662          # echos \"1 hour, 1 minute and 2 seconds\"\n```\n```julia\nformatduration(62)    # returns \"1 minute and 2 seconds\"\nformatduration(3662)  # returns \"1 hour, 1 minute and 2 seconds\"\n```\n```racket\n(format-duration 62)    ; returns \"1 minute and 2 seconds\"\n(format-duration 3662)  ; returns \"1 hour, 1 minute and 2 seconds\"\n```\n```rust\nformat_duration(62)    // returns \"1 minute and 2 seconds\"\nformat_duration(3662)  // returns \"1 hour, 1 minute and 2 seconds\"\n```\n\n**For the purpose of this Kata, a year is 365 days and a day is 24 hours.**\n\nNote that spaces are important.\n\n\n### Detailed rules\n\nThe resulting expression is made of components like `4 seconds`, `1 year`, etc.  In general, a positive integer and one of the valid units of time, separated by a space. The unit of time is used in plural if the integer is greater than 1.\n\nThe components are separated by a comma and a space (`\", \"`). Except the last component, which is separated by `\" and \"`, just like it would be written in English. \n\nA more significant units of time will occur before than a least significant one. Therefore, `1 second and 1 year` is not correct, but `1 year and 1 second` is.\n\nDifferent components have different unit of times. So there is not repeated units like in `5 seconds and 1 second`.\n\nA component will not appear at all if its value happens to be zero.  Hence, `1 minute and 0 seconds` is not valid, but it should be just `1 minute`.\n\n A unit of time must be used \"as much as possible\". It means that the function should not return `61 seconds`, but `1 minute and 1 second` instead.  Formally, the duration specified by  of a component must not be greater than any valid more significant unit of time.\n",
+  "totalAttempts": 199465,
+  "totalCompleted": 21353,
+  "totalStars": 1263,
+  "voteScore": 2441,
+  "tags": [
+    "Algorithms",
+    "Formats",
+    "Strings",
+    "Data Types",
+    "Dates/Time",
+    "Formatting",
+    "Logic"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 5,
+    "suggestions": 5
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "code-challenge_codewars",
+  "version": "1.0.0",
+  "description": "Compilation of my completed kata (code challenges) on codewars.com",
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/davcd/code-challenge_codewars.git"
+  },
+  "scripts": {
+    "sync": "node ./sync/entrypoint.js",
+    "sync:debug": "node inspect ./sync/entrypoint.js"
+  },
+  "author": "davcd",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.2"
+  }
+}

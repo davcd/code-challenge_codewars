@@ -1,0 +1,46 @@
+{
+  "id": "5e28ae347036fa001a504bbe",
+  "name": "Is the King in check ?",
+  "slug": "is-the-king-in-check",
+  "category": "algorithms",
+  "publishedAt": "2020-01-23T17:25:07.001Z",
+  "approvedAt": "2020-01-28T08:08:32.928Z",
+  "languages": [
+    "c",
+    "javascript",
+    "python",
+    "haskell"
+  ],
+  "url": "https://www.codewars.com/kata/5e28ae347036fa001a504bbe",
+  "rank": {
+    "id": -5,
+    "name": "5 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2020-01-22T20:19:00.442Z",
+  "createdBy": {
+    "username": "trashy_incel",
+    "url": "https://www.codewars.com/users/trashy_incel"
+  },
+  "approvedBy": {
+    "username": "Blind4Basics",
+    "url": "https://www.codewars.com/users/Blind4Basics"
+  },
+  "description": "You have to write a function \n```if:c,python\n~~~\nking_is_in_check\n~~~\n```\n```if:haskell,javascript\n~~~\nkingIsInCheck\n~~~\n```\nthat takes for input a 8x8 chessboard in the form of a bi-dimensional array of chars (Javascript : strings of length 1) and returns  ````true```` if the black king is in check or ````false```` if it is not.\n\n```if:c,haskell\nThe array will include 64 squares which can contain the following characters :\n<ul>\n  <li>'K' for the black King;</li>\n  <li>'Q' for a white Queen;</li>\n  <li>'B' for a white Bishop;</li>\n  <li>'N' for a white kNight;</li>\n  <li>'R' for a white Rook;</li>\n  <li>'P' for a white Pawn;</li>\n  <li><pre>' ' (a space) if there is no piece on that square.</pre></li>\n</ul>\n```\n```if:javascript,python\nThe array will include 64 squares which can contain the following characters :\n<ul>\n  <li>'♔' for the black King;</li>\n  <li>'♛' for a white Queen;</li>\n  <li>'♝' for a white Bishop;</li>\n  <li>'♞' for a white Knight;</li>\n  <li>'♜' for a white Rook;</li>\n  <li>'♟' for a white Pawn;</li>\n  <li><pre>' ' (a space) if there is no piece on that square.</pre></li>\n</ul>\n\nNote : these are actually inverted-color [chess Unicode characters](https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode)  because the dark codewars theme makes the white appear black and vice versa. Use the characters shown above.\n```\n\nThere will always be exactly one king, which is the **black** king, whereas all the other pieces are **white**.<br>\n**The board is oriented from Black's perspective.**<br>\nRemember that pawns can only move and take **forward**.<br>\nAlso be careful with the pieces' lines of sight ;-) .\n\nThe input will always be valid, no need to validate it.\nTo help you visualize the position, tests will print a chessboard to show you the problematic cases.\nLooking like this :\n\n<pre>\n|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n|   |   |   | ♜ |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n|   |   |   | ♔ |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n|   |   |   |   |   |   |   |   |\n|---|---|---|---|---|---|---|---|\n\n</pre>\n\n\n\n\n\n\n\n\n",
+  "totalAttempts": 38320,
+  "totalCompleted": 183,
+  "totalStars": 71,
+  "voteScore": 53,
+  "tags": [
+    "Algorithms",
+    "Games",
+    "Arrays",
+    "Data Types",
+    "Strings"
+  ],
+  "contributorsWanted": false,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "521c2db8ddc89b9b7a0000c1",
+  "name": "Snail",
+  "slug": "snail",
+  "category": "algorithms",
+  "publishedAt": "2013-08-28T04:56:02.580Z",
+  "approvedAt": null,
+  "languages": [
+    "ruby",
+    "coffeescript",
+    "javascript",
+    "python",
+    "haskell",
+    "elixir",
+    "ocaml",
+    "php",
+    "scala",
+    "java",
+    "cpp",
+    "csharp",
+    "nasm",
+    "c",
+    "cfml"
+  ],
+  "url": "https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1",
+  "rank": {
+    "id": -4,
+    "name": "4 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2013-08-27T04:40:24.711Z",
+  "createdBy": {
+    "username": "stevenbarragan",
+    "url": "https://www.codewars.com/users/stevenbarragan"
+  },
+  "description": "## Snail Sort\n\nGiven an `n x n` array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.\n\n```\narray = [[1,2,3],\n         [4,5,6],\n         [7,8,9]]\nsnail(array) #=> [1,2,3,6,9,8,7,4,5]\n```\n\nFor better understanding, please follow the numbers of the next array consecutively:\n\n```\narray = [[1,2,3],\n         [8,9,4],\n         [7,6,5]]\nsnail(array) #=> [1,2,3,4,5,6,7,8,9]\n```\n\nThis image will illustrate things more clearly:\n\n<img src=\"http://www.haan.lu/files/2513/8347/2456/snail.png\" />\n\nNOTE: The idea is not sort the elements from the lowest value to the highest; the idea is to traverse the 2-d array in a clockwise snailshell pattern.\n\nNOTE 2: The 0x0 (empty matrix) is represented as en empty array inside an array `[[]]`.",
+  "totalAttempts": 206345,
+  "totalCompleted": 20883,
+  "totalStars": 1928,
+  "voteScore": 2689,
+  "tags": [
+    "Algorithms",
+    "Arrays",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 2,
+    "suggestions": 5
+  }
+}

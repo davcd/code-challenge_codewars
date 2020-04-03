@@ -1,0 +1,46 @@
+{
+  "id": "51fd6bc82bc150b28e0000ce",
+  "name": "No oddities here",
+  "slug": "no-oddities-here",
+  "category": "reference",
+  "publishedAt": "2013-08-03T21:22:04.892Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "ruby",
+    "coffeescript",
+    "haskell",
+    "csharp",
+    "prolog",
+    "julia",
+    "typescript",
+    "cfml",
+    "python"
+  ],
+  "url": "https://www.codewars.com/kata/51fd6bc82bc150b28e0000ce",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2013-08-03T20:44:56.214Z",
+  "createdBy": {
+    "username": "ineiti",
+    "url": "https://www.codewars.com/users/ineiti"
+  },
+  "description": "Write a small function that returns the values of an array that are not odd. \n\nAll values in the array will be integers. Return the good values in the order they are given.\n\n```javascript\nfunction noOdds( values )\n```\n```coffeescript\nnoOdds = ( values ) ->\n```\n```ruby\ndef no_odds( values )\n```\n```haskell\nnoOdds :: Integral n => [n] -> [n]\n```\n```csharp\nNoOdds(int[] values)\n```\n```prolog\nno_odds(Values, Result)\n```\n```typescript\nfunction noOdds(values: number[]): number[]\n```\n```julia\nfunction noodds(values::Array{Int,1})::Array{Int,1}\n```\n```cfml\nfunction noOdds( array values )\n```\n```python\ndef no_odds(values):\n```\n",
+  "totalAttempts": 50789,
+  "totalCompleted": 14704,
+  "totalStars": 69,
+  "voteScore": 484,
+  "tags": [
+    "Fundamentals",
+    "Arrays",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 4,
+    "suggestions": 1
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "55b42574ff091733d900002f",
+  "name": "Friend or Foe?",
+  "slug": "friend-or-foe",
+  "category": "reference",
+  "publishedAt": "2015-07-26T00:12:43.788Z",
+  "approvedAt": "2016-11-26T23:01:40.233Z",
+  "languages": [
+    "python",
+    "ruby",
+    "csharp",
+    "javascript",
+    "coffeescript",
+    "haskell"
+  ],
+  "url": "https://www.codewars.com/kata/55b42574ff091733d900002f",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2015-07-26T00:10:29.086Z",
+  "createdBy": {
+    "username": "Aweson1",
+    "url": "https://www.codewars.com/users/Aweson1"
+  },
+  "approvedBy": {
+    "username": "suic",
+    "url": "https://www.codewars.com/users/suic"
+  },
+  "description": "Make a program that filters a list of strings and returns a list with only your friends name in it.\n\nIf a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...\n\nEx: Input = [\"Ryan\", \"Kieran\", \"Jason\", \"Yous\"], Output = [\"Ryan\", \"Yous\"]\n\ni.e.\n```haskell\nfriend [\"Ryan\", \"Kieran\", \"Mark\"] `shouldBe` [\"Ryan\", \"Mark\"]\n```\n\nNote: keep the original order of the names in the output.",
+  "totalAttempts": 134761,
+  "totalCompleted": 45553,
+  "totalStars": 305,
+  "voteScore": 4564,
+  "tags": [
+    "Fundamentals"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 2
+  }
+}

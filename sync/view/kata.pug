@@ -1,0 +1,37 @@
+h1
+  a(href=kata.url)=kata.name
+p='\n'+kata.description+'\n'
+
+h2 Kata information
+table
+  thead
+    tr
+      th Difficulty
+      th Author
+      th Approver
+      th Published date
+      th Approved date
+      
+  tbody
+    tr
+      td=kata.rank.name
+      if kata.createdBy
+        td 
+          a(href=kata.createdBy.url)=kata.createdBy.username
+      else
+        td -
+      if kata.approvedBy
+        td 
+          a(href=kata.approvedBy.url)=kata.approvedBy.username
+      else
+        td -
+      td=(kata.publishedAt)?moment(kata.publishedAt).format('YYYY-MM-DD HH:mm'):'-'
+      td=(kata.approvedBy)?moment(kata.approvedAt).format('YYYY-MM-DD HH:mm'):'-'
+
+
+h3 Related topics
+table
+  tbody
+  each row in kata.tags
+    tr
+      td=row

@@ -1,0 +1,39 @@
+{
+  "id": "5935558a32fb828aad001213",
+  "name": "Multi Line Task++: Hello World",
+  "slug": "multi-line-task-plus-plus-hello-world",
+  "category": "reference",
+  "publishedAt": "2017-06-05T12:58:52.869Z",
+  "approvedAt": "2017-08-05T01:42:55.111Z",
+  "languages": [
+    "javascript"
+  ],
+  "url": "https://www.codewars.com/kata/5935558a32fb828aad001213",
+  "rank": {
+    "id": -2,
+    "name": "2 kyu",
+    "color": "purple"
+  },
+  "createdAt": "2017-06-05T12:59:18.496Z",
+  "createdBy": {
+    "username": "Voile",
+    "url": "https://www.codewars.com/users/Voile"
+  },
+  "approvedBy": {
+    "username": "dcieslak",
+    "url": "https://www.codewars.com/users/dcieslak"
+  },
+  "description": "You need to write a function `f` that returns the string `Hello, world!`.\n\nRequirement: Every line must have at most `2` characters, and total number of lines must be less than `40`.\n\nHint: It's possible to complete this in `28` lines only.\n\n---\n\n(Even) harder verion: https://www.codewars.com/kata/59a421985eb5d4bb41000031",
+  "totalAttempts": 13756,
+  "totalCompleted": 1020,
+  "totalStars": 110,
+  "voteScore": 230,
+  "tags": [
+    "Fundamentals"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

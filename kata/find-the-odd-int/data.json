@@ -1,0 +1,57 @@
+{
+  "id": "54da5a58ea159efa38000836",
+  "name": "Find the odd int",
+  "slug": "find-the-odd-int",
+  "category": "reference",
+  "publishedAt": "2015-02-10T19:33:24.293Z",
+  "approvedAt": "2015-09-15T16:09:27.774Z",
+  "languages": [
+    "java",
+    "haskell",
+    "javascript",
+    "python",
+    "ruby",
+    "typescript",
+    "php",
+    "csharp",
+    "fsharp",
+    "clojure",
+    "nasm",
+    "coffeescript",
+    "crystal",
+    "cpp",
+    "scala",
+    "julia",
+    "racket",
+    "go",
+    "prolog"
+  ],
+  "url": "https://www.codewars.com/kata/54da5a58ea159efa38000836",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2015-02-10T19:22:00.772Z",
+  "createdBy": {
+    "username": "rbuckley",
+    "url": "https://www.codewars.com/users/rbuckley"
+  },
+  "approvedBy": {
+    "username": "Unnamed",
+    "url": "https://www.codewars.com/users/Unnamed"
+  },
+  "description": "Given an array, find the integer that appears an odd number of times.\n\nThere will always be only one integer that appears an odd number of times.\n",
+  "totalAttempts": 353653,
+  "totalCompleted": 88841,
+  "totalStars": 1657,
+  "voteScore": 8966,
+  "tags": [
+    "Fundamentals"
+  ],
+  "contributorsWanted": false,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 4
+  }
+}

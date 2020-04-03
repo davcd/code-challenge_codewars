@@ -1,0 +1,82 @@
+{
+  "id": "55f9bca8ecaa9eac7100004a",
+  "name": "Beginner Series #2 Clock",
+  "slug": "beginner-series-number-2-clock",
+  "category": "reference",
+  "publishedAt": "2015-09-16T19:17:38.292Z",
+  "approvedAt": "2017-09-28T04:01:19.127Z",
+  "languages": [
+    "csharp",
+    "javascript",
+    "ruby",
+    "java",
+    "python",
+    "prolog",
+    "cfml",
+    "c",
+    "typescript",
+    "julia",
+    "swift",
+    "solidity",
+    "shell",
+    "scala",
+    "rust",
+    "reason",
+    "r",
+    "purescript",
+    "powershell",
+    "php",
+    "ocaml",
+    "objc",
+    "nim",
+    "lua",
+    "kotlin",
+    "haskell",
+    "groovy",
+    "sql",
+    "racket",
+    "go",
+    "nasm",
+    "vb",
+    "elixir",
+    "elm",
+    "erlang",
+    "fsharp",
+    "fortran",
+    "crystal",
+    "cpp",
+    "clojure",
+    "factor",
+    "forth",
+    "dart",
+    "coffeescript"
+  ],
+  "url": "https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2015-09-16T19:02:01.245Z",
+  "createdBy": {
+    "username": "Vortus",
+    "url": "https://www.codewars.com/users/Vortus"
+  },
+  "approvedBy": {
+    "username": "Voile",
+    "url": "https://www.codewars.com/users/Voile"
+  },
+  "description": "Clock shows 'h' hours, 'm' minutes and 's' seconds after midnight.\n\nYour task is to make 'Past' function which returns time converted to milliseconds.\n\n## Example:\n\n```c\npast(0, 1, 1) == 61000\n```\n```javascript\npast(0, 1, 1) == 61000\n```\n```csharp\nPast(0, 1, 1) == 61000\n```\n```python\npast(0, 1, 1) == 61000\n```\n```ruby\npast(0, 1, 1) == 61000\n```\n```java\nPast(0, 1, 1) == 61000\n```\n```prolog\npast(0, 1, 1, 61000).\n```\n```cfml\npast(0, 1, 1) == 61000\n```\n```typescript\npast(0, 1, 1) === 61000\n```\n```coffeescript\npast(0, 1, 1) == 61000\n```\n```julia\npast(0, 1, 1) == 61000\n```\n```clojure\n(= (past 0 1 1) 61000)\n```\n```cpp\npast(0, 1, 1) == 61000\n```\n```crystal\npast(0, 1, 1) == 61000\n```\n```dart\npast(0, 1, 1) == 61000\n```\n```elixir\npast(0, 1, 1) == 61000\n```\n```elm\npast 0 1 1 == 61000\n```\n```erlang\npast(0, 1, 1) =:= 61000\n```\n```factor\n0 1 1 past 61000 =\n```\n```forth\n0 1 1 past 61000 =\n```\n```fortran\npast(0, 1, 1) == 61000\n```\n```fsharp\npast 0 1 1 = 61000\n```\n```go\npast(0, 1, 1) == 61000\n```\n```groovy\npast(0, 1, 1) == 61000\n```\n```haskell\npast 0 1 1 == 61000\n```\n```kotlin\npast(0, 1, 1) == 61000\n```\n```lua\npast(0, 1, 1) == 61000\n```\n```nasm\npast(0, 1, 1) == 61000\n```\n```nim\npast(0, 1, 1) == 61000\n```\n```objc\npast(0, 1, 1) == 61000\n```\n```ocaml\npast 0 1 1 == 61000\n```\n```php\npast(0, 1, 1) == 61000\n```\n```powershell\nPast(0, 1, 1) == 61000\n```\n```purescript\npast 0 1 1 == 61000\n```\n```r\npast(0, 1, 1) == 61000\n```\n```racket\n(= (past 0 1 1) 61000)\n```\n```reason\npast(0, 1, 1) == 61000\n```\n```rust\npast(0, 1, 1) == 61000\n```\n```scala\npast(0, 1, 1) == 61000\n```\n```shell\nrun_shell(args: [0, 1, 1]) == 61000\n```\n```solidity\npast(0, 1, 1) == 61000\n```\n```sql\n{h: 0, m: 1, s: 1} => res: 61000\n```\n```swift\npast(0, 1, 1) == 61000\n```\n```vb\nPast(0, 1, 1) == 61000\n```\n\nInput constraints: `0 <= h <= 23`, `0 <= m <= 59`, `0 <= s <= 59`",
+  "totalAttempts": 26176,
+  "totalCompleted": 13753,
+  "totalStars": 96,
+  "voteScore": 1692,
+  "tags": [
+    "Fundamentals"
+  ],
+  "contributorsWanted": false,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 4
+  }
+}

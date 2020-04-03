@@ -1,0 +1,49 @@
+{
+  "id": "53dbd5315a3c69eed20002dd",
+  "name": "List Filtering",
+  "slug": "list-filtering",
+  "category": "reference",
+  "publishedAt": "2014-08-01T17:58:35.185Z",
+  "approvedAt": "2014-08-13T04:24:50.513Z",
+  "languages": [
+    "python",
+    "ruby",
+    "coffeescript",
+    "javascript",
+    "csharp",
+    "fsharp"
+  ],
+  "url": "https://www.codewars.com/kata/53dbd5315a3c69eed20002dd",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2014-08-01T17:58:09.749Z",
+  "createdBy": {
+    "username": "cmgerber",
+    "url": "https://www.codewars.com/users/cmgerber"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.\n\n### Example\n\n```python\nfilter_list([1,2,'a','b']) == [1,2]\nfilter_list([1,'a','b',0,15]) == [1,0,15]\nfilter_list([1,2,'aasf','1','123',123]) == [1,2,123]\n```\n```csharp\nListFilterer.GetIntegersFromList(new List<object>(){1, 2, \"a\", \"b\"}) => {1, 2}\nListFilterer.GetIntegersFromList(new List<object>(){1, 2, \"a\", \"b\", 0, 15}) => {1, 2, 0, 15}\nListFilterer.GetIntegersFromList(new List<object>(){1, 2, \"a\", \"b\", \"aasf\", \"1\", \"123\", 231}) => {1, 2, 231}\n```",
+  "totalAttempts": 211956,
+  "totalCompleted": 61567,
+  "totalStars": 429,
+  "voteScore": 6052,
+  "tags": [
+    "Fundamentals",
+    "Lists",
+    "Data Structures",
+    "Filtering",
+    "Algorithms",
+    "Logic"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 2,
+    "suggestions": 7
+  }
+}

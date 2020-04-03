@@ -1,0 +1,53 @@
+{
+  "id": "593ff8b39e1cc4bae9000070",
+  "name": "Longest Common Subsequence (Performance version)",
+  "slug": "longest-common-subsequence-performance-version",
+  "category": "algorithms",
+  "publishedAt": "2017-06-13T14:53:41.372Z",
+  "approvedAt": "2017-08-17T13:09:28.209Z",
+  "languages": [
+    "javascript",
+    "haskell",
+    "java",
+    "csharp",
+    "ruby",
+    "scala",
+    "kotlin",
+    "cpp",
+    "clojure",
+    "c"
+  ],
+  "url": "https://www.codewars.com/kata/593ff8b39e1cc4bae9000070",
+  "rank": {
+    "id": -4,
+    "name": "4 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2017-06-13T14:37:40.337Z",
+  "createdBy": {
+    "username": "JohanWiltink",
+    "url": "https://www.codewars.com/users/JohanWiltink"
+  },
+  "approvedBy": {
+    "username": "Voile",
+    "url": "https://www.codewars.com/users/Voile"
+  },
+  "description": "## Longest Common Subsequence (Performance version)\n\nfrom [Wikipedia](http://en.wikipedia.org/wiki/Longest_common_subsequence_problem):  \nThe longest common subsequence (LCS) problem is the problem of finding the longest subsequence common to all sequences in a set of sequences.  \nIt differs from problems of finding common substrings: unlike substrings, subsequences are not required to occupy consecutive positions within the original sequences.\n\n## Task\n\nWrite a function `lcs` that accepts two `string`s and returns their longest common subsequence as a `string`. \nPerformance matters.\n\n#### Examples\n\n```javascript\nlcs( \"abcdef\", \"abc\" ) => \"abc\"\nlcs( \"abcdef\", \"acf\" ) => \"acf\"\nlcs( \"132535365\", \"123456789\" ) => \"12356\"\nlcs( \"abcdefghijklmnopq\", \"apcdefghijklmnobq\" ) => \"acdefghijklmnoq\"\n```\n```haskell\nlcs \"abcdef\" \"abc\" -> \"abc\"\nlcs \"abcdef\" \"acf\" -> \"acf\"\nlcs \"132535365\" \"123456789\" -> \"12356\"\nlcs \"abcdefghijklmnopq\" \"apcdefghijklmnobq\" -> \"acdefghijklmnoq\"\n```\n```clojure\n(lcs \"abcdef\" \"abc\") ; \"abc\"\n(lcs \"abcdef\" \"acf\") ; \"acf\"\n(lcs \"132535365\" \"123456789\") ; \"12356\"\n(lcs \"abcdefghijklmnopq\" \"apcdefghijklmnobq\") ; \"acdefghijklmnoq\"\n```\n\n#### Testing\n\nThis is a performance version of [xDranik](http://www.codewars.com/users/xDranik)'s [kata of the same name](http://www.codewars.com/kata/longest-common-subsequence/).  \nThis kata, however, has much more full and heavy testing. Intermediate random tests have string arguments of 20 characters; hard random tests 40 characters; extreme 60 characters (characters are chosen out of 36 different ones).\n```if:javascript\nThe reference algorithm solves all (12 fixed, 72 intermediate, 24 hard, 12 extreme) tests within ~150ms. The example algorithm without memoisation would take ~15000ms.\n```\n```if:haskell\nThe naive (Wikipedia) solution will run out of time, but\nthe reference algorithm, stolen from the other kata from user geekyfox, showcasing memoisation, and\nthe example algorithm, optimising the recursion, do not have any runtime problems (at all).\n```\n\n#### Notes\n\nThe subsequences of `\"abc\"` are `\"\", \"a\", \"b\", \"c\", \"ab\", \"ac\", \"bc\", \"abc\"`.  \n`\"\"` is a valid subsequence in this kata, and a possible return value.  \nAll inputs will be valid.  \nTwo strings may have more than one longest common subsequence. When this occurs, return any of them.\n```javascript\nlcs( string0, string1 ) === lcs( string1, string0 )\n```\n```haskell\nlcs xs ys == lcs ys xs\n```\n```clojure\n(= (lcs xs ys) (lcs ys xs))\n```\nWikipedia has an [article](http://en.wikipedia.org/wiki/Longest_common_subsequence_problem) that may be helpful.",
+  "totalAttempts": 5939,
+  "totalCompleted": 754,
+  "totalStars": 151,
+  "voteScore": 156,
+  "tags": [
+    "Algorithms",
+    "Performance",
+    "Strings",
+    "Data Types",
+    "Sequences",
+    "Arrays"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 0
+  }
+}

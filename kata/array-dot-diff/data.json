@@ -1,0 +1,53 @@
+{
+  "id": "523f5d21c841566fde000009",
+  "name": "Array.diff",
+  "slug": "array-dot-diff",
+  "category": "reference",
+  "publishedAt": "2013-09-22T21:34:42.482Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "haskell",
+    "ruby",
+    "python",
+    "csharp",
+    "rust",
+    "clojure",
+    "php",
+    "groovy",
+    "julia",
+    "nim",
+    "r",
+    "elixir",
+    "fsharp",
+    "prolog",
+    "c"
+  ],
+  "url": "https://www.codewars.com/kata/523f5d21c841566fde000009",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2013-09-22T21:12:01.950Z",
+  "createdBy": {
+    "username": "marcinbunsch",
+    "url": "https://www.codewars.com/users/marcinbunsch"
+  },
+  "description": "Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.\n\nIt should remove all values from list `a`, which are present in list `b`.\n\n```c\narray_diff({1, 2}, 2, {1}, 1, *z) == {2} (z == 1)\n```\n```javascript\narrayDiff([1,2],[1]) == [2]\n```\n```ruby\narray_diff([1,2],[1]) == [2]\n```\n```python\narray_diff([1,2],[1]) == [2]\n```\n```coffeescript\narrayDiff([1,2],[1]) == [2]\n```\n```haskell\ndifference [1,2] [1] == [2]\n```\n```csharp\nKata.ArrayDiff(new int[] {1, 2}, new int[] {1}) => new int[] {2}\n```\n```fsharp\narrayDiff [|1|] [|1; 2|] = [|2|]\n```\n```rust\narray_diff(vec![1,2], vec![1]) == vec![2]\n```\n```clojure\n(= (array-diff [1 2] [1]) [2])\n```\n```groovy\nKata.arrayDiff([1,2],[1]) == [2]\n```\n```julia\narraydiff([1,2],[1]) == [2]\n```\n```nim\narrayDiff(@[1,2],@[1]) == @[2]\n```\n```php\narrayDiff([1,2],[1]) == [2]\n```\n```r\narray_diff(c(1, 2), 1) == 2\n```\n```prolog\narray_diff([1, 2], [1], [2]). % Result = [2]\n```\n\nIf a value is present in `b`, all of its occurrences must be removed from the other:\n\n```c\narray_diff({1, 2, 2, 2, 3}, 5, {2}, 1, *z) == {1, 3} (z == 2)\n```\n```javascript\narrayDiff([1,2,2,2,3],[2]) == [1,3]\n```\n```ruby\narray_diff([1,2],[1]) == [2]\n```\n```python\narray_diff([1,2,2,2,3],[2]) == [1,3]\n```\n```coffeescript\narrayDiff([1,2,2,2,3],[2]) == [1,3]\n```\n```haskell\ndifference [1,2,2,2,3] [2] == [1,3]\n```\n```csharp\nKata.ArrayDiff(new int[] {1, 2, 2, 2, 3}, new int[] {2}) => new int[] {1, 3}\n```\n```fsharp\narrayDiff [|2|] [|1; 2; 2; 2; 3|] = [|1; 3|]\n```\n```rust\narray_diff(vec![1,2,2,2,3], vec![2]) == vec![1,3]\n```\n```clojure\n(= (array-diff [1,2,2,2,3] [2]) [1,3])\n```\n```groovy\nKata.arrayDiff([1,2,2,2,3],[2]) == [1,3]\n```\n```julia\narraydiff([1,2,2,2,3],[2]) == [1,3]\n```\n```nim\narrayDiff(@[1,2,2,2,3],@[2]) == @[1,3]\n```\n```php\narrayDiff([1,2,2,2,3],[2]) == [1,3]\n```\n```r\narray_diff(c(1, 2, 2, 2, 3), 2) == c(1, 3)\n```\n```prolog\narray_diff([1, 2, 2, 2, 3], [2], [1, 3]). % Result = [1, 3]\n```\n~~~ if:c\nNOTE: In C, assign return array length to pointer *z\n~~~\n",
+  "totalAttempts": 293057,
+  "totalCompleted": 62464,
+  "totalStars": 867,
+  "voteScore": 6017,
+  "tags": [
+    "Fundamentals",
+    "Arrays",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 3,
+    "suggestions": 4
+  }
+}

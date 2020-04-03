@@ -1,0 +1,50 @@
+{
+  "id": "52756e5ad454534f220001ef",
+  "name": "Longest Common Subsequence",
+  "slug": "longest-common-subsequence",
+  "category": "algorithms",
+  "publishedAt": "2013-11-02T21:57:29.272Z",
+  "approvedAt": "2013-11-27T16:58:12.878Z",
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "haskell",
+    "python",
+    "ruby",
+    "java",
+    "ocaml",
+    "go"
+  ],
+  "url": "https://www.codewars.com/kata/52756e5ad454534f220001ef",
+  "rank": {
+    "id": -5,
+    "name": "5 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2013-11-02T21:27:54.795Z",
+  "createdBy": {
+    "username": "xDranik",
+    "url": "https://www.codewars.com/users/xDranik"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Write a function called `LCS` that accepts two sequences and returns the longest subsequence common to the passed in sequences.\n\n### Subsequence\nA subsequence is different from a substring. The terms of a subsequence need not be consecutive terms of the original sequence.\n\n### Example subsequence\nSubsequences of `\"abc\"` = `\"a\"`, `\"b\"`, `\"c\"`, `\"ab\"`, `\"ac\"`, `\"bc\"` and `\"abc\"`.\n\n### LCS examples\n```javascript\nLCS( \"abcdef\" , \"abc\" ) => returns \"abc\"\nLCS( \"abcdef\" , \"acf\" ) => returns \"acf\"\nLCS( \"132535365\" , \"123456789\" ) => returns \"12356\"\n```\n```haskell\nlcs \"a\"         \"b\"         `shouldBe` \"\"\nlcs \"abcdef\"    \"abc\"       `shouldBe` \"abc\"\nlcs \"132535365\" \"123456789\" `shouldBe` \"12356\"\n```\n```python\nlcs( \"abcdef\" , \"abc\" ) => returns \"abc\"\nlcs( \"abcdef\" , \"acf\" ) => returns \"acf\"\nlcs( \"132535365\" , \"123456789\" ) => returns \"12356\"\n```\n```ruby\nlcs( \"abcdef\" , \"abc\" ) => returns \"abc\"\nlcs( \"abcdef\" , \"acf\" ) => returns \"acf\"\nlcs( \"132535365\" , \"123456789\" ) => returns \"12356\"\n```\n```java\nSolution.lcs(\"abcdef\", \"abc\") => returns \"abc\"\nSolution.lcs(\"abcdef\", \"acf\") => returns \"acf\"\nSolution.lcs(\"132535365\", \"123456789\") => returns \"12356\"\n```\n```go\nLCS( \"abcdef\", \"abc\" ) => returns \"abc\"\nLCS( \"abcdef\", \"acf\" ) => returns \"acf\"\nLCS( \"132535365\", \"123456789\" ) => returns \"12356\"\n```\n```ocaml\nlcs ['a';'b';'c';'d';'e';'f'] ['a';'b';'c'] => returns ['a';'b';'c']\nlcs ['a';'b';'c';'d';'e';'f'] ['a';'c';'f'] => returns ['a';'c';'f']\nlcs [1;3;2;5;3;5;3;6;5] [1;2;3;4;5;6;7;8;9] => returns [1;2;3;5;6]\n```\n\n### Notes\n* Both arguments will be strings\n* Return value must be a string\n* Return an empty string if there exists no common subsequence\n* Both arguments will have one or more characters (in JavaScript)\n* All tests will only have a single longest common subsequence. Don't worry about cases such as `LCS( \"1234\", \"3412\" )`, which would have two possible longest common subsequences: `\"12\"` and `\"34\"`.\n\nNote that the Haskell variant will use randomized testing, but any longest common subsequence will be valid.\n\nNote that the OCaml variant is using generic lists instead of strings, and will also have randomized tests (any longest common subsequence will be valid).\n\n### Tips\n\nWikipedia has an explanation of the two properties that can be used to solve the problem:\n\n- [First property](http://en.wikipedia.org/wiki/Longest_common_subsequence_problem#First_property)\n- [Second property](http://en.wikipedia.org/wiki/Longest_common_subsequence_problem#Second_property)\n",
+  "totalAttempts": 46981,
+  "totalCompleted": 4247,
+  "totalStars": 471,
+  "voteScore": 428,
+  "tags": [
+    "Algorithms",
+    "Strings",
+    "Data Types",
+    "Search",
+    "Logic"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 7,
+    "suggestions": 4
+  }
+}

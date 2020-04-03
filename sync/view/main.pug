@@ -1,0 +1,126 @@
+h1 Codewars katas completed by #{warrior}
+p 
+  a(href='https://www.codewars.com') Codewars
+  |  is an online educational coding platform where users aka "
+  a(href='https://www.codewars.com/users/leaderboard')
+    i warriors
+  | " solve code challenges aka "
+  a(href='https://github.com/codewars/codewars.com/wiki/About-Codewars#kata')
+    i katas
+  | " to improve their coding skills. Each kata is set to a kyu rank, based on its subject area and difficulty. Every new warrior is ranked as 8 kyu (Beginner) and can rank up by completing katas.
+p(align='center')
+  img(src='docs/rank-difficulty-schema.png' title='Codewars rank and difficulty scheme')
+blockquote For more detailed information please visit 
+  a(href='https://github.com/Codewars/codewars.com/wiki') codewars wiki
+i Following 
+  a(href='https://github.com/codewars/codewars.com/wiki/Community-Code-of-Conduct') codewars code of conduct
+  | , in this public repository you will not find any solution. Please 
+  a(href=`mailto:${mail}`) contact me
+  |  if you are interested in checking my code.
+
+h2 Overview
+a(href=`https://www.codewars.com/users/${warrior}`)
+  img(src=`https://www.codewars.com/users/${warrior}/badges/large` title=`${warrior} warrior badge`)
+
+h3 Overall statistics
+table
+  tbody
+    tr
+      td Rank
+      td=overall.rank
+    tr 
+      td Score
+      td=(overall.score>0)?overall.score:'-'
+    tr 
+      td Honor
+      td=(overall.honor>0)?overall.honor:'-'
+    tr 
+      td Completed katas
+      td=(overall.completed_katas>0)?overall.completed_katas:'-'
+    tr 
+      td Authored katas
+      td=(overall.authored_katas>0)?overall.authored_katas:'-'
+
+if completedKatas.by_language.length>0
+  h3 Language summary
+  table
+    thead
+      tr
+        th(rowspan='3') Language
+        th(rowspan='3') Rank
+        th(colspan='10') Completed katas
+      tr 
+        th Beta
+        th(colspan='2')
+          img(src='https://placehold.it/12/e6e6e6/000000?text=+') 
+          |  Beginner
+        th(colspan='2')
+          img(src='https://placehold.it/12/ecb613/000000?text=+') 
+          |  Novice
+        th(colspan='2')
+          img(src='https://placehold.it/12/3c7ebb/000000?text=+') 
+          |  Competent
+        th(colspan='2')
+          img(src='https://placehold.it/12/866cc7/000000?text=+') 
+          |  Proficient
+        th(rowspan='2')  Total
+      tr  
+        th
+          span(title='All published kata which are waiting for community approval and difficulty ranking.') Any
+        th
+          span(title='- Defining a simple function (i.e. hello world)\r\n- Basic variable assignments\r\n- Fixing basic syntax issues\r\n- Trivial algorithms such as basic if/else statements') 8 kyu
+        th
+          span(title='- Iterating arrays and returning a subset of values\r\n- Basic data type manipulations\r\n- Basic functional or object-oriented concepts\r\n- Basic Regular Expressions') 7 kyu
+        th
+          span(title='- Complex language features (closures, scopes, monads, etc)\r\n- Complex OOP/Functional concepts\r\n- Basic Design Patterns\r\n- Complex Regular Expressions') 6 kyu
+        th
+          span(title='- Complex language features that require mature OOP/Functional concepts\r\n- Advanced OOP/Functional concepts\r\n- Complex Design Patterns\r\n- Advanced regular expression usage') 5 kyu
+        th
+          span(title='- Computer science concepts utilizing complex algorithms\r\n- Advanced design patterns\r\n- Understanding intricate business requirements\r\n- Advanced concepts such as concurrency, parallelism, meta programming and cryptography') 4 kyu
+        th
+          span(title='- Computer science concepts utilizing advanced algorithms\r\n- Ability to implement advanced requirements in a scalable fashion\r\n- Basic AI/machine learning algorithms\r\n- Detailed usage of advanced concepts such as concurrency, parallelism and cryptography') 3 kyu
+        th
+          span(title='- Complex AI/machine learning algorithms\r\n- Reverse engineering techniques\r\n- Basic interpreters and compilers\r\n- Basic mini-programs with multiple feature requirements (such as a basic markdown parser)') 2 kyu
+        th
+          span(title='- Advanced AI/machine learning algorithms\r\n- Complex interpreters and compilers\r\n- Complex Mini-programs with multiple feature requirements (such as a complete markdown parser)') 1 kyu
+    tbody
+    each language in completedKatas.by_language
+      tr
+        td=language.name
+        td=language.summary.rank
+        each by_difficulty in language.summary.completed
+          td=(by_difficulty>0)?by_difficulty:'-'
+        td=language.summary.completed.reduce((a, b) => a + b, 0)
+
+if completedKatas.by_topic.length>0
+  h3 Topic summary
+  if completedKatas.by_topic.length===10
+    blockquote 10 most popular
+  table
+    thead
+      tr
+        th Topic
+        th Completed katas
+    tbody
+    each topic in completedKatas.by_topic
+      tr
+        td=topic.name
+        td=topic.num
+
+if completedKatas.by_language.length>0
+  h2 Solved katas by language
+  each language in completedKatas.by_language
+    h3=language.name
+    table
+      thead
+        tr
+          th Difficulty
+          th Name
+          th Date
+      tbody
+      each kata in language.list.katas
+        tr
+          td=kata.difficulty
+          td
+            a(href=`./kata/${kata.slug}`)=kata.name
+          td=moment(kata.date).format('YYYY-MM-DD')

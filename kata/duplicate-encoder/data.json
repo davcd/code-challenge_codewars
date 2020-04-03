@@ -1,0 +1,61 @@
+{
+  "id": "54b42f9314d9229fd6000d9c",
+  "name": "Duplicate Encoder",
+  "slug": "duplicate-encoder",
+  "category": "reference",
+  "publishedAt": "2015-01-12T20:44:23.917Z",
+  "approvedAt": "2015-04-08T13:11:16.924Z",
+  "languages": [
+    "java",
+    "javascript",
+    "python",
+    "ruby",
+    "csharp",
+    "php",
+    "rust",
+    "r",
+    "scala",
+    "nim",
+    "c",
+    "elm",
+    "haskell",
+    "typescript",
+    "cpp",
+    "coffeescript",
+    "crystal",
+    "swift",
+    "julia",
+    "go"
+  ],
+  "url": "https://www.codewars.com/kata/54b42f9314d9229fd6000d9c",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2015-01-12T20:33:23.298Z",
+  "createdBy": {
+    "username": "obnounce",
+    "url": "https://www.codewars.com/users/obnounce"
+  },
+  "approvedBy": {
+    "username": "Azuaron",
+    "url": "https://www.codewars.com/users/Azuaron"
+  },
+  "description": "The goal of this exercise is to convert a string to a new string where each character in the new string is `\"(\"` if that character appears only once in the original string, or `\")\"` if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.\n\n## Examples\n```\n\"din\"      =>  \"(((\"\n\"recede\"   =>  \"()()()\"\n\"Success\"  =>  \")())())\"\n\"(( @\"     =>  \"))((\" \n```\n\n**Notes**\n\nAssertion messages may be unclear about what they display in some languages. If you read `\"...It Should encode XXX\"`, the `\"XXX\"` is the expected result, not the input!",
+  "totalAttempts": 330499,
+  "totalCompleted": 59110,
+  "totalStars": 1337,
+  "voteScore": 6522,
+  "tags": [
+    "Fundamentals",
+    "Strings",
+    "Data Types",
+    "Arrays"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 4,
+    "suggestions": 1
+  }
+}

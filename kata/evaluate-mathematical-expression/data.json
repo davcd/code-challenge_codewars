@@ -1,0 +1,57 @@
+{
+  "id": "52a78825cdfc2cfc87000005",
+  "name": "Evaluate mathematical expression",
+  "slug": "evaluate-mathematical-expression",
+  "category": "algorithms",
+  "publishedAt": "2013-12-11T08:47:01.670Z",
+  "approvedAt": "2014-02-01T18:24:28.223Z",
+  "languages": [
+    "javascript",
+    "java",
+    "ruby",
+    "php",
+    "typescript",
+    "python",
+    "cpp",
+    "racket",
+    "dart",
+    "clojure"
+  ],
+  "url": "https://www.codewars.com/kata/52a78825cdfc2cfc87000005",
+  "rank": {
+    "id": -2,
+    "name": "2 kyu",
+    "color": "purple"
+  },
+  "createdAt": "2013-12-10T21:31:17.834Z",
+  "createdBy": {
+    "username": "ankr",
+    "url": "https://www.codewars.com/users/ankr"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "# Instructions\n\nGiven a mathematical expression as a string you must return the result as a number.\n\n## Numbers\nNumber may be both whole numbers and/or decimal numbers. The same goes for the returned result.\n\n## Operators\nYou need to support the following mathematical operators:\n\n - Multiplication `*`\n - Division `/` (as true division)\n - Addition `+`\n - Subtraction `-`\n\nOperators are always evaluated from left-to-right, and `*` and `/` must be evaluated before `+` and `-`.\n\n## Parentheses\nYou need to support multiple levels of nested parentheses, ex. `(2 / (2 + 3.33) * 4) - -6`\n\n## Whitespace\nThere may or may not be whitespace between numbers and operators.\n\nAn addition to this rule is that the minus sign (`-`) used for negating numbers and parentheses will *never* be separated by whitespace. I.e., all of the following are **valid** expressions.\n\n```\n1-1    // 0\n1 -1   // 0\n1- 1   // 0\n1 - 1  // 0\n1- -1  // 2\n1 - -1 // 2\n\n6 + -(4)   // 2\n6 + -( -4) // 10\n```\n\nAnd the following are **invalid** expressions\n```\n1 - - 1    // Invalid\n1- - 1     // Invalid\n6 + - (4)  // Invalid\n6 + -(- 4) // Invalid\n```\n\n## Validation\nYou do not need to worry about validation - you will only receive **valid** mathematical expressions following the above rules.\n\n```if:javascript\nNOTE: Both `eval` and `Function` are disabled. Same goes for `String.match`.\n```\n\n```if:php\nNOTE: `eval` is disallowed in your solution.\n```\n\n```if:python\nNOTE: `eval` and `exec` are disallowed in your solution.\n```\n\n```if:clojure\nNOTE: `eval` and `import` is disallowed in your solution.\n```",
+  "totalAttempts": 60070,
+  "totalCompleted": 3653,
+  "totalStars": 917,
+  "voteScore": 692,
+  "tags": [
+    "Algorithms",
+    "Mathematics",
+    "Logic",
+    "Numbers",
+    "Expressions",
+    "Basic Language Features",
+    "Fundamentals",
+    "Operators",
+    "Parsing",
+    "Strings"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 13,
+    "suggestions": 9
+  }
+}
