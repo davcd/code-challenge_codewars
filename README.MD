@@ -215,7 +215,7 @@
   <tr>
     <td>5 kyu</td>
     <td><a href="./kata/is-the-king-in-check">Is the King in check ?</a></td>
-    <td>2020-03-25</td>
+    <td>2020-03-24</td>
   </tr>
   <tr>
     <td>5 kyu</td>
@@ -265,12 +265,12 @@
   <tr>
     <td>7 kyu</td>
     <td><a href="./kata/no-oddities-here">No oddities here</a></td>
-    <td>2020-03-14</td>
+    <td>2020-03-13</td>
   </tr>
   <tr>
     <td>7 kyu</td>
     <td><a href="./kata/list-filtering">List Filtering</a></td>
-    <td>2020-03-14</td>
+    <td>2020-03-13</td>
   </tr>
   <tr>
     <td>8 kyu</td>
