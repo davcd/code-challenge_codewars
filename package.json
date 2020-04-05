@@ -11,7 +11,7 @@
     "sync:debug": "node inspect ./sync/entrypoint.js"
   },
   "author": "davcd",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
