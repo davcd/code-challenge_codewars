@@ -1,0 +1,60 @@
+{
+  "id": "56cd44e1aa4ac7879200010b",
+  "name": "Is the string uppercase?",
+  "slug": "is-the-string-uppercase",
+  "category": "reference",
+  "publishedAt": "2016-02-24T08:36:38.413Z",
+  "approvedAt": "2016-02-24T21:11:39.481Z",
+  "languages": [
+    "ruby",
+    "javascript",
+    "coffeescript",
+    "csharp",
+    "haskell",
+    "python",
+    "elixir",
+    "c",
+    "nasm",
+    "php",
+    "forth",
+    "go",
+    "typescript",
+    "julia",
+    "crystal",
+    "racket",
+    "dart",
+    "reason",
+    "cpp",
+    "factor"
+  ],
+  "url": "https://www.codewars.com/kata/56cd44e1aa4ac7879200010b",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2016-02-24T05:51:29.232Z",
+  "createdBy": {
+    "username": "donaldsebleung",
+    "url": "https://www.codewars.com/users/donaldsebleung"
+  },
+  "approvedBy": {
+    "username": "matt c",
+    "url": "https://www.codewars.com/users/matt%20c"
+  },
+  "description": "# Is the string uppercase?\n\n## Task\n\n```if-not:haskell,csharp,javascript,coffeescript,elixir,forth,go,dart,julia,cpp,reason,typescript,racket,ruby\nCreate a method `is_uppercase()` to see whether the string is ALL CAPS. For example:\n```\n```if:haskell,reason,typescript\nCreate a method `isUpperCase` to see whether the string is ALL CAPS. For example:\n```\n```if:csharp\nCreate an extension method `IsUpperCase` to see whether the string is ALL CAPS. For example:\n```\n```if:julia\nCreate a function `isupper` to see whether the string is ALL CAPS. For example:\n```\n```if:cpp\nCreate a function `is_uppercase()` to see whether the string is ALL CAPS. For example:\n```\n```if:javascript,coffeescript\nAdd the `isUpperCase` method to `String` to see whether the string is ALL CAPS. For example:\n```\n```if:elixir\nCreate a method `upper_case?` to see whether the string is ALL CAPS. For example:\n```\n```if:forth,factor\nCreate a word `uppercase?` to check whether a string is ALL CAPS. For example:\n```\n```if:go\nCreate a method `IsUpperCase` to see whether the string is ALL CAPS. For example:\n```\n```if:racket\nCreate a method `upcase?` to see whether the string is ALL CAPS. For example:\n```\n```if:ruby\nCreate a method `is_upcase?` to see whether the string is ALL CAPS. For example:\n```\n\n```python\nis_uppercase(\"c\") == False\nis_uppercase(\"C\") == True\nis_uppercase(\"hello I AM DONALD\") == False\nis_uppercase(\"HELLO I AM DONALD\") == True\nis_uppercase(\"ACSKLDFJSgSKLDFJSKLDFJ\") == False\nis_uppercase(\"ACSKLDFJSGSKLDFJSKLDFJ\") == True\n```\n```haskell\nisUpperCase \"c\" == False\nisUpperCase \"C\" == True\nisUpperCase \"hello I AM DONALD\" == False\nisUpperCase \"HELLO I AM DONALD\" == True\nisUpperCase \"ACSKLDFJSgSKLDFJSKLDFJ\" == False\nisUpperCase \"ACSKLDFJSGSKLDFJSKLDFJ\" == True\n```\n```csharp\n\"c\".IsUpperCase() == false\n\"C\".IsUpperCase() == true\n\"hello I AM DONALD\".IsUpperCase() == false\n\"HELLO I AM DONALD\".IsUpperCase() == true\n\"ACSKLDFJSgSKLDFJSKLDFJ\".IsUpperCase() == false\n\"ACSKLDFJSGSKLDFJSKLDFJ\".IsUpperCase() == true\n```\n```dart\nisUpperCase(\"c\") == false\nisUpperCase(\"C\") == true\nisUpperCase(\"hello I AM DONALD\") == false\nisUpperCase(\"HELLO I AM DONALD\") == true\nisUpperCase(\"ACSKLDFJSgSKLDFJSKLDFJ\") == false\nisUpperCase(\"ACSKLDFJSGSKLDFJSKLDFJ\") == true\n```\n```julia\nisupper(\"c\") == false\nisupper(\"C\") == true\nisupper(\"hello I AM DONALD\") == false\nisupper(\"HELLO I AM DONALD\") == true\nisupper(\"ACSKLDFJSgSKLDFJSKLDFJ\") == false\nisupper(\"ACSKLDFJSGSKLDFJSKLDFJ\") == true\n```\n```php\nis_uppercase(\"c\") == false\nis_uppercase(\"C\") == true\nis_uppercase(\"hello I AM DONALD\") == false\nis_uppercase(\"HELLO I AM DONALD\") == true\nis_uppercase(\"ACSKLDFJSgSKLDFJSKLDFJ\") == false\nis_uppercase(\"ACSKLDFJSGSKLDFJSKLDFJ\") == true\n```\n```c\nis_uppercase(\"c\") == false\nis_uppercase(\"C\") == true\nis_uppercase(\"hello I AM DONALD\") == false\nis_uppercase(\"HELLO I AM DONALD\") == true\nis_uppercase(\"ACSKLDFJSgSKLDFJSKLDFJ\") == false\nis_uppercase(\"ACSKLDFJSGSKLDFJSKLDFJ\") == true\n```\n```cpp\nis_uppercase(\"c\") == false\nis_uppercase(\"C\") == true\nis_uppercase(\"hello I AM DONALD\") == false\nis_uppercase(\"HELLO I AM DONALD\") == true\nis_uppercase(\"ACSKLDFJSgSKLDFJSKLDFJ\") == false\nis_uppercase(\"ACSKLDFJSGSKLDFJSKLDFJ\") == true\n```\n```javascript\n\"c\".isUpperCase() == false\n\"C\".isUpperCase() == true\n\"hello I AM DONALD\".isUpperCase() == false\n\"HELLO I AM DONALD\".isUpperCase() == true\n\"ACSKLDFJSgSKLDFJSKLDFJ\".isUpperCase() == false\n\"ACSKLDFJSGSKLDFJSKLDFJ\".isUpperCase() == true\n```\n```coffeescript\n\"c\".isUpperCase() == no\n\"C\".isUpperCase() == yes\n\"hello I AM DONALD\".isUpperCase() == no\n\"HELLO I AM DONALD\".isUpperCase() == yes\n\"ACSKLDFJSgSKLDFJSKLDFJ\".isUpperCase() == no\n\"ACSKLDFJSGSKLDFJSKLDFJ\".isUpperCase() == yes\n```\n```elixir\nupper_case?(\"c\") == false\nupper_case?(\"C\") == true\nupper_case?(\"hello I AM DONALD\") == false\nupper_case?(\"HELLO I AM DONALD\") == true\nupper_case?(\"ACSKLDFJSgSKLDFJSKLDFJ\") == false\nupper_case?(\"ACSKLDFJSGSKLDFJSKLDFJ\") == true\n```\n```forth\ns\" c\" uppercase? -> false\ns\" C\" uppercase? -> true\ns\" hello I AM DONALD\" uppercase? -> false\ns\" HELLO I AM DONALD\" uppercase? ->  true\ns\" ACSKLDFJSgSKLDFJSKLDFJ\" uppercase? -> false\ns\" ACSKLDFJSGSKLDFJSKLDFJ\" uppercase? -> true\n```\n```factor\n\"c\" uppercase? -> f\n\"C\" uppercase? -> t\n\"hello I AM DONALD\" uppercase? -> f\n\"HELLO I AM DONALD\" uppercase? ->  t\n\"ACSKLDFJSgSKLDFJSKLDFJ\" uppercase? -> f\n\"ACSKLDFJSGSKLDFJSKLDFJ\" uppercase? -> t\n```\n```go\ntype MyString string\nMyString(\"c\").IsUpperCase() == false\nMyString(\"C\").IsUpperCase() == true\nMyString(\"hello I AM DONALD\").IsUpperCase() == false\nMyString(\"HELLO I AM DONALD\").IsUpperCase() == true\nMyString(\"ACSKLDFJSgSKLDFJSKLDFJ\").IsUpperCase() == false\nMyString(\"ACSKLDFJSGSKLDFJSKLDFJ\").IsUpperCase() == true\n```\n```racket\n(upcase? \"c\") ; #f\n(upcase? \"C\") ; #t\n(upcase? \"hello I AM DONALD\") ; #f\n(upcase? \"HELLO I AM DONALD\") ; #t \n(upcase? \"ACSKLDFJSgSKLDFJSKLDFJ\") ; #f\n(upcase? \"ACSKLDFJSGSKLDFJSKLDFJ\") ; #t\n```\n```reason\nisUpperCase(\"c\") == false\nisUpperCase(\"C\") == true\nisUpperCase(\"hello I AM DONALD\") == false\nisUpperCase(\"HELLO I AM DONALD\") == true\nisUpperCase(\"ACSKLDFJSgSKLDFJSKLDFJ\") == false\nisUpperCase(\"ACSKLDFJSGSKLDFJSKLDFJ\") == true\n```\n```typescript\nisUpperCase('c') == false\nisUpperCase('C') == true\nisUpperCase('hello I AM DONALD') == false\nisUpperCase('HELLO I AM DONALD') == true\nisUpperCase('ACSKLDFJSgSKLDFJSKLDFJ') == false\nisUpperCase('ACSKLDFJSGSKLDFJSKLDFJ') == true\n```\n```ruby\n\"c\".is_upcase? == false\n\"C\".is_upcase? == true\n\"hello I AM DONALD\".is_upcase? == false\n\"HELLO I AM DONALD\".is_upcase? == true\n\"ACSKLDFJSgSKLDFJSKLDFJ\".is_upcase? == false\n\"ACSKLDFJSGSKLDFJSKLDFJ\".is_upcase? == true\n```\n\nIn this Kata, a string is said to be in ALL CAPS whenever it does not contain any lowercase letter so any string containing no letters at all is trivially considered to be in ALL CAPS.\n",
+  "totalAttempts": 49064,
+  "totalCompleted": 11338,
+  "totalStars": 145,
+  "voteScore": 954,
+  "tags": [
+    "Fundamentals",
+    "Object-oriented Programming",
+    "Programming Paradigms"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

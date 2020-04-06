@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>1460</td>
+      <td>1538</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>703</td>
+      <td>745</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>23</td>
+      <td>26</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -85,15 +85,15 @@
     <td>javascript</td>
     <td>4 kyu</td>
     <td>-</td>
-    <td>2</td>
+    <td>3</td>
     <td>4</td>
     <td>4</td>
-    <td>4</td>
-    <td>4</td>
+    <td>5</td>
+    <td>5</td>
     <td>2</td>
     <td>2</td>
     <td>-</td>
-    <td>22</td>
+    <td>25</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -122,23 +122,23 @@
   <tbody></tbody>
   <tr>
     <td>Algorithms</td>
-    <td>14</td>
-  </tr>
-  <tr>
-    <td>Data Types</td>
-    <td>12</td>
+    <td>16</td>
   </tr>
   <tr>
     <td>Fundamentals</td>
-    <td>11</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>Data Types</td>
+    <td>13</td>
   </tr>
   <tr>
     <td>Logic</td>
-    <td>10</td>
+    <td>11</td>
   </tr>
   <tr>
     <td>Strings</td>
-    <td>9</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>Arrays</td>
@@ -149,15 +149,15 @@
     <td>5</td>
   </tr>
   <tr>
+    <td>Basic Language Features</td>
+    <td>4</td>
+  </tr>
+  <tr>
     <td>Mathematics</td>
     <td>4</td>
   </tr>
   <tr>
-    <td>Basic Language Features</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Data Structures</td>
+    <td>Parsing</td>
     <td>3</td>
   </tr>
 </table>
@@ -194,6 +194,11 @@
   </tr>
   <tr>
     <td>4 kyu</td>
+    <td><a href="./kata/spaghetti-code-number-2-hard">Spaghetti Code - #2 Hard</a></td>
+    <td>2020-04-05</td>
+  </tr>
+  <tr>
+    <td>4 kyu</td>
     <td><a href="./kata/longest-common-subsequence-performance-version">Longest Common Subsequence (Performance version)</a></td>
     <td>2020-03-24</td>
   </tr>
@@ -211,6 +216,11 @@
     <td>4 kyu</td>
     <td><a href="./kata/snail">Snail</a></td>
     <td>2020-03-14</td>
+  </tr>
+  <tr>
+    <td>5 kyu</td>
+    <td><a href="./kata/reverse-inside-parentheses-inside-parentheses">Reverse Inside Parentheses (Inside Parentheses)</a></td>
+    <td>2020-04-05</td>
   </tr>
   <tr>
     <td>5 kyu</td>
@@ -271,6 +281,11 @@
     <td>7 kyu</td>
     <td><a href="./kata/list-filtering">List Filtering</a></td>
     <td>2020-03-13</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/is-the-string-uppercase">Is the string uppercase?</a></td>
+    <td>2020-04-05</td>
   </tr>
   <tr>
     <td>8 kyu</td>

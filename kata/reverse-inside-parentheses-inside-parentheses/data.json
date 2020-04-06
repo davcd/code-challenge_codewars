@@ -1,0 +1,51 @@
+{
+  "id": "5e07b5c55654a900230f0229",
+  "name": "Reverse Inside Parentheses (Inside Parentheses)",
+  "slug": "reverse-inside-parentheses-inside-parentheses",
+  "category": "reference",
+  "publishedAt": "2019-12-28T20:13:34.316Z",
+  "approvedAt": "2019-12-29T16:45:08.706Z",
+  "languages": [
+    "javascript",
+    "c",
+    "elixir",
+    "haskell"
+  ],
+  "url": "https://www.codewars.com/kata/5e07b5c55654a900230f0229",
+  "rank": {
+    "id": -5,
+    "name": "5 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2019-12-28T20:06:29.974Z",
+  "createdBy": {
+    "username": "dmercertaylor",
+    "url": "https://www.codewars.com/users/dmercertaylor"
+  },
+  "approvedBy": {
+    "username": "Avanta",
+    "url": "https://www.codewars.com/users/Avanta"
+  },
+  "description": "In this kata, you will be given a string of text and valid parentheses, such as `\"h(el)lo\"`. You must return the string, with only the text inside parentheses reversed, so `\"h(el)lo\"` becomes `\"h(le)lo\"`. However, if said parenthesized text contains parenthesized text itself, then that too must reversed back, so it faces the original direction. When parentheses are reversed, they should switch directions, so they remain syntactically correct (i.e. `\"h((el)l)o\"` becomes `\"'h(l(el))o'\"`). This pattern should repeat for however many layers of parentheses.\n\nFor example:\n```javascript\nreverseInParens(\"h(el)lo\") == \"h(le)lo\";\nreverseInParens(\"a ((d e) c b)\") == \"a (b c (d e))\";\nreverseInParens(\"one (two (three) four)\") == \"one (ruof (three) owt)\";\nreverseInParens(\"one (ruof ((rht)ee) owt)\") == \"one (two ((thr)ee) four)\";\n```\n```c\nreverse_in_parens(\"h(el)lo\") == \"h(le)lo\");\nreverse_in_parens(\"a ((d e) c b)\") == \"a (b c (d e))\");\nreverse_in_parens(\"one (two (three) four)\") == \"one (ruof (three) owt)\");\nreverse_in_parens(\"one (ruof ((rht)ee) owt)\") == \"one (two ((thr)ee) four)\");\n```\n```elixir\nKata.reverse_in_parens(\"h(el)lo\") == \"h(le)lo\"\nKata.reverse_in_parens(\"a ((d e) c b)\") == \"a (b c (d e))\"\nKata.reverse_in_parens(\"one (two (three) four)\") == \"one (ruof (three) owt)\"\nKata.reverse_in_parens(\"one (ruof ((rht)ee) owt)\") == \"one (two ((thr)ee) four)\"\n```\n```haskell\nreverseInParens \"h(el)lo\" == \"h(le)lo\"\nreverseInParens \"a ((d e) c b)\" == \"a (b c (d e))\"\nreverseInParens \"one (two (three) four)\" == \"one (ruof (three) owt)\"\nreverseInParens \"one (ruof ((rht)ee) owt)\" == \"one (two ((thr)ee) four)\"\n```\n\nInput parentheses will always be valid (i.e. you will never get \"(()\").",
+  "totalAttempts": 1031,
+  "totalCompleted": 86,
+  "totalStars": 35,
+  "voteScore": 35,
+  "tags": [
+    "Fundamentals",
+    "Strings",
+    "Data Types",
+    "Basic Language Features",
+    "Recursion",
+    "Algorithms",
+    "Computability Theory",
+    "Logic",
+    "Theoretical Computer Science",
+    "Parsing"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "586dd5f4a44cfc48bb000011",
+  "name": "Spaghetti Code - #2 Hard",
+  "slug": "spaghetti-code-number-2-hard",
+  "category": "algorithms",
+  "publishedAt": "2017-01-06T03:02:03.996Z",
+  "approvedAt": "2017-06-05T15:32:44.354Z",
+  "languages": [
+    "javascript"
+  ],
+  "url": "https://www.codewars.com/kata/586dd5f4a44cfc48bb000011",
+  "rank": {
+    "id": -4,
+    "name": "4 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2017-01-05T05:13:24.187Z",
+  "createdBy": {
+    "username": "dinglemouse",
+    "url": "https://www.codewars.com/users/dinglemouse"
+  },
+  "approvedBy": {
+    "username": "Voile",
+    "url": "https://www.codewars.com/users/Voile"
+  },
+  "description": "# Hooray - It's \"Spaghetti Night\" again !\n\nSpaghetti is my favourite meal, so I always like to save the longest piece for last...\n\nBut since my <a href=\"https://www.codewars.com/kata/57d7805cec167081a50014ac\">last \"Spaghetti Night\"</a> the price of my special ID spaghetti has really gone through the roof and so I have changed to a cheaper brand. \n\nUnfortunately, this cheaper spaghetti only has a SINGLE ID somewhere on each piece of spaghetti.\n\nOh well, at least it tastes the same.\n\n\n# Task\n\nWrite some spaghetti code to help me know which piece of spaghetti is the longest.\n\nTry NOT to write spaghetti code that looks like <a href=\"https://en.wikipedia.org/wiki/Spaghetti_code\">spaghetti code</a> !\n\nNOTES\n\n* Spaghetti pieces all look the same (\"S\") except for a single uppercase letter unique ID *somewhere* on the piece (which may also be \"S\")\n* Spaghetti pieces do not touch each other, or themselves\n* Spaghetti pieces twist only up, down, left, right (not diagonally)\n* If multiple spaghetti pieces are longest, just return any one of them (all spaghetti tastes the same)\n* If the plate has no spaghetti then return empty string\n* All of my plates are rectangular \n* Plates can have any (non alphabetic) background pattern on them\n\n# Examples\n\nEx1\n```\nSSSSSASS____\n____________\nSSSSSSBSSSS_\n____________\nSSSSSC______\n```\n*Answer:* ```B```\n\n<hr>\nEx2\n```\nSSSSSSSSS   \n________S__SSS_\n S   S  A    S \n_S___S__S____S_\n B   S       S \n_S___SSSSSCSSS_\n```\n*Answer:* ```C```\n\n\n",
+  "totalAttempts": 536,
+  "totalCompleted": 56,
+  "totalStars": 15,
+  "voteScore": 47,
+  "tags": [
+    "Algorithms"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}
