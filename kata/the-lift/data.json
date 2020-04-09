@@ -1,0 +1,45 @@
+{
+  "id": "58905bfa1decb981da00009e",
+  "name": "The Lift",
+  "slug": "the-lift",
+  "category": "algorithms",
+  "publishedAt": "2017-03-24T11:36:09.183Z",
+  "approvedAt": "2017-11-15T12:41:03.858Z",
+  "languages": [
+    "java",
+    "python",
+    "javascript",
+    "coffeescript",
+    "ruby",
+    "cpp",
+    "csharp"
+  ],
+  "url": "https://www.codewars.com/kata/58905bfa1decb981da00009e",
+  "rank": {
+    "id": -3,
+    "name": "3 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2017-01-31T09:42:18.177Z",
+  "createdBy": {
+    "username": "dinglemouse",
+    "url": "https://www.codewars.com/users/dinglemouse"
+  },
+  "approvedBy": {
+    "username": "Blind4Basics",
+    "url": "https://www.codewars.com/users/Blind4Basics"
+  },
+  "description": "<img src=\"https://i.imgur.com/ta6gv1i.png?1\" title=\"weekly coding challenge\" /> x 2\n\n\n*I bet you won't ever catch a Lift (a.k.a. elevator) again without thinking of this Kata !*\n\n<hr>\n\n# Synopsis\n\nA multi-floor building has a Lift in it.\n\nPeople are queued on different floors waiting for the Lift.\n\nSome people want to go up. Some people want to go down. \n\nThe floor they want to go to is represented by a number (i.e. when they enter the Lift this is the button they will press)\n\n```\nBEFORE (people waiting in queues)               AFTER (people at their destinations)\n                   +--+                                          +--+ \n  /----------------|  |----------------\\        /----------------|  |----------------\\\n10|                |  | 1,4,3,2        |      10|             10 |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 9|                |  | 1,10,2         |       9|                |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 8|                |  |                |       8|                |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 7|                |  | 3,6,4,5,6      |       7|                |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 6|                |  |                |       6|          6,6,6 |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 5|                |  |                |       5|            5,5 |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 4|                |  | 0,0,0          |       4|          4,4,4 |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 3|                |  |                |       3|            3,3 |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 2|                |  | 4              |       2|          2,2,2 |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n 1|                |  | 6,5,2          |       1|            1,1 |  |                |\n  |----------------|  |----------------|        |----------------|  |----------------|\n G|                |  |                |       G|          0,0,0 |  |                |\n  |====================================|        |====================================|\n```\n<hr>\n\n# Rules\n\n#### Lift Rules\n\n* The Lift only goes up or down!\n* Each floor has both UP and DOWN Lift-call buttons (except top and ground floors which have only DOWN and UP respectively)\n* The Lift never changes direction until there are no more people wanting to get on/off in the direction it is already travelling\n* When empty the Lift tries to be smart. For example,\n * If it was going up then it may continue up to collect the highest floor person wanting to go down\n * If it was going down then it may continue down to collect the lowest floor person wanting to go up\n* The Lift has a maximum capacity of people \n* When called, the Lift will stop at a floor **even if it is full**, although unless somebody gets off nobody else can get on!\n* If the lift is empty, and no people are waiting, then it will return to the ground floor\n \n#### People Rules\n\n* People are in **\"queues\"** that represent their order of arrival to wait for the Lift\n* All people can press the UP/DOWN Lift-call buttons\n* Only people going the **same direction** as the Lift may enter it\n* Entry is according to the **\"queue\" order**, but those unable to enter do not block those behind them that can\n* If a person is unable to enter a full Lift, they will press the UP/DOWN Lift-call button again after it has departed without them\n\n \n<hr> \n\n# Kata Task\n\n* Get all the people to the floors they want to go to while obeying the **Lift rules** and the **People rules**\n* Return a list of all floors that the Lift stopped at (in the order visited!)\n\nNOTE: The Lift always starts on the ground floor (and people waiting on the ground floor may enter immediately)\n\n<hr>\n\n# I/O\n\n#### Input\n\n* ```queues``` a list of queues of people for all floors of the building. \n * The height of the building varies\n * 0 = the ground floor\n * Not all floors have queues\n * Queue index [0] is the \"head\" of the queue\n * Numbers indicate which floor the person wants go to\n* ```capacity``` maximum number of people allowed in the lift\n\n*Parameter validation* - All input parameters can be assumed OK. No need to check for things like:\n\n* People wanting to go to floors that do not exist\n* People wanting to take the Lift to the floor they are already on\n* Buildings with < 2 floors\n* Basements\n\n#### Output\n\n* A list of all floors that the Lift stopped at (in the order visited!)\n\n<hr>\n\n# Example\n\nRefer to the example test cases.\n\n<hr>\n\n# Language Notes\n\n* Python : The object will be initialized for you in the tests\n\n<hr>\n<span style=\"color:red\">\nGood Luck -\n\nDM\n\n</span>\n\n\n\n\n\n",
+  "totalAttempts": 19999,
+  "totalCompleted": 774,
+  "totalStars": 409,
+  "voteScore": 211,
+  "tags": [
+    "Algorithms"
+  ],
+  "contributorsWanted": false,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

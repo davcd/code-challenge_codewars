@@ -1,0 +1,53 @@
+{
+  "id": "534e01fbbb17187c7e0000c6",
+  "name": "Make a spiral",
+  "slug": "make-a-spiral",
+  "category": "algorithms",
+  "publishedAt": "2014-04-16T09:19:39.444Z",
+  "approvedAt": "2014-06-11T19:56:13.812Z",
+  "languages": [
+    "coffeescript",
+    "javascript",
+    "python",
+    "ruby",
+    "haskell",
+    "swift",
+    "java",
+    "julia",
+    "rust"
+  ],
+  "url": "https://www.codewars.com/kata/534e01fbbb17187c7e0000c6",
+  "rank": {
+    "id": -3,
+    "name": "3 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2014-04-16T04:07:23.255Z",
+  "createdBy": {
+    "username": "Bugari",
+    "url": "https://www.codewars.com/users/Bugari"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Your task, is to create a NxN spiral with a given `size`.\n\nFor example, spiral with size 5 should look like this:\n\n```\n00000\n....0\n000.0\n0...0\n00000\n```\n\nand with the size 10:\n\n```\n0000000000\n.........0\n00000000.0\n0......0.0\n0.0000.0.0\n0.0..0.0.0\n0.0....0.0\n0.000000.0\n0........0\n0000000000\n```\n\nReturn value should contain array of arrays, of `0` and `1`, for example for given size `5` result should be:\n\n\n```javascript\n[[1,1,1,1,1],[0,0,0,0,1],[1,1,1,0,1],[1,0,0,0,1],[1,1,1,1,1]]\n```\n```rust\n[[1,1,1,1,1],[0,0,0,0,1],[1,1,1,0,1],[1,0,0,0,1],[1,1,1,1,1]]\n```\n```julia\n[1 1 1 1 1; 0 0 0 0 1; 1 1 1 0 1; 1 0 0 0 1; 1 1 1 1 1]\n```\n\nBecause of the edge-cases for tiny spirals, the size will be at least 5.\n\nGeneral rule-of-a-thumb is, that the snake made with '1' cannot touch to itself.\n",
+  "totalAttempts": 43867,
+  "totalCompleted": 3970,
+  "totalStars": 597,
+  "voteScore": 560,
+  "tags": [
+    "Algorithms",
+    "Logic",
+    "Arrays",
+    "Data Types",
+    "Control Flow",
+    "Basic Language Features",
+    "Fundamentals"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 3,
+    "suggestions": 2
+  }
+}

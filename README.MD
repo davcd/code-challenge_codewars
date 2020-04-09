@@ -9,19 +9,19 @@
   <tbody>
     <tr>
       <td>Rank</td>
-      <td>4 kyu</td>
+      <td>3 kyu</td>
     </tr>
     <tr> 
       <td>Score</td>
-      <td>1538</td>
+      <td>1836</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>745</td>
+      <td>911</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>26</td>
+      <td>28</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -83,17 +83,17 @@
   <tbody></tbody>
   <tr>
     <td>javascript</td>
-    <td>4 kyu</td>
+    <td>3 kyu</td>
     <td>-</td>
     <td>3</td>
     <td>4</td>
     <td>4</td>
     <td>5</td>
     <td>5</td>
-    <td>2</td>
+    <td>4</td>
     <td>2</td>
     <td>-</td>
-    <td>25</td>
+    <td>27</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -122,19 +122,19 @@
   <tbody></tbody>
   <tr>
     <td>Algorithms</td>
-    <td>16</td>
-  </tr>
-  <tr>
-    <td>Fundamentals</td>
-    <td>13</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>Data Types</td>
-    <td>13</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>Fundamentals</td>
+    <td>14</td>
   </tr>
   <tr>
     <td>Logic</td>
-    <td>11</td>
+    <td>12</td>
   </tr>
   <tr>
     <td>Strings</td>
@@ -142,15 +142,15 @@
   </tr>
   <tr>
     <td>Arrays</td>
-    <td>7</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Basic Language Features</td>
+    <td>5</td>
   </tr>
   <tr>
     <td>Numbers</td>
     <td>5</td>
-  </tr>
-  <tr>
-    <td>Basic Language Features</td>
-    <td>4</td>
   </tr>
   <tr>
     <td>Mathematics</td>
@@ -181,6 +181,16 @@
     <td>2 kyu</td>
     <td><a href="./kata/multi-line-task-plus-plus-hello-world">Multi Line Task++: Hello World</a></td>
     <td>2020-03-25</td>
+  </tr>
+  <tr>
+    <td>3 kyu</td>
+    <td><a href="./kata/the-lift">The Lift</a></td>
+    <td>2020-04-08</td>
+  </tr>
+  <tr>
+    <td>3 kyu</td>
+    <td><a href="./kata/make-a-spiral">Make a spiral</a></td>
+    <td>2020-04-08</td>
   </tr>
   <tr>
     <td>3 kyu</td>
