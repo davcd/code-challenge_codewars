@@ -1,0 +1,55 @@
+{
+  "id": "59ca8246d751df55cc00014c",
+  "name": "Is he gonna survive?",
+  "slug": "is-he-gonna-survive",
+  "category": "reference",
+  "publishedAt": "2017-09-26T16:37:29.064Z",
+  "approvedAt": "2017-10-17T04:08:42.923Z",
+  "languages": [
+    "javascript",
+    "nasm",
+    "c",
+    "haskell",
+    "go",
+    "python",
+    "ruby",
+    "julia",
+    "cpp",
+    "r",
+    "kotlin",
+    "csharp",
+    "php",
+    "typescript",
+    "nim"
+  ],
+  "url": "https://www.codewars.com/kata/59ca8246d751df55cc00014c",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2017-09-26T16:37:26.397Z",
+  "createdBy": {
+    "username": "MMortaga",
+    "url": "https://www.codewars.com/users/MMortaga"
+  },
+  "approvedBy": {
+    "username": "Voile",
+    "url": "https://www.codewars.com/users/Voile"
+  },
+  "description": "A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive?\n\nReturn True if yes, False otherwise :)",
+  "totalAttempts": 35903,
+  "totalCompleted": 14395,
+  "totalStars": 59,
+  "voteScore": 1579,
+  "tags": [
+    "Fundamentals",
+    "Booleans",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 5
+  }
+}

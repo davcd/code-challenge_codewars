@@ -1,0 +1,47 @@
+{
+  "id": "5865918c6b569962950002a1",
+  "name": "All Star Code Challenge #18",
+  "slug": "all-star-code-challenge-number-18",
+  "category": "reference",
+  "publishedAt": "2016-12-31T04:07:59.524Z",
+  "approvedAt": "2018-04-08T07:10:19.216Z",
+  "languages": [
+    "javascript",
+    "python",
+    "ruby",
+    "cpp",
+    "java",
+    "csharp",
+    "crystal",
+    "php",
+    "c"
+  ],
+  "url": "https://www.codewars.com/kata/5865918c6b569962950002a1",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2016-12-29T22:43:24.659Z",
+  "createdBy": {
+    "username": "shaddyjr",
+    "url": "https://www.codewars.com/users/shaddyjr"
+  },
+  "approvedBy": {
+    "username": "KenKamau",
+    "url": "https://www.codewars.com/users/KenKamau"
+  },
+  "description": "**This Kata is intended as a small challenge for my students**\n\nAll Star Code Challenge #18\n\nCreate a function called that accepts 2 string arguments and returns an integer of the count of occurrences the 2nd argument is found in the first one.\n\nIf no occurrences can be found, a count of 0 should be returned.\n\n```javascript\nstrCount('Hello', 'o') // => 1\nstrCount('Hello', 'l') // => 2\nstrCount('', 'z')      // => 0\n```\n```ruby\nstrCount('Hello', 'o') # => 1\nstrCount('Hello', 'l') # => 2\nstrCount('', 'z')      # => 0\n```\n```java\nstrCount(\"Hello\", 'o') // => 1\nstrCount(\"Hello\", 'l') // => 2\nstrCount(\"\", 'z')      // => 0\n```\n```c\nstr_count(\"Hello\", 'o'); // returns 1\nstr_count(\"Hello\", 'l'); // returns 2\nstr_count(\"\", 'z'); // returns 0\n```\n```nasm\nstr_count(\"Hello\", 'o'); // returns 1\nstr_count(\"Hello\", 'l'); // returns 2\nstr_count(\"\", 'z'); // returns 0\n```\n\nNotes:\n* The first argument can be an empty string  \n* The second string argument will always be of length 1\n",
+  "totalAttempts": 23174,
+  "totalCompleted": 10039,
+  "totalStars": 68,
+  "voteScore": 1243,
+  "tags": [
+    "Fundamentals"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 2
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "568dc014440f03b13900001d",
+  "name": "L1: Bartender, drinks!",
+  "slug": "l1-bartender-drinks",
+  "category": "reference",
+  "publishedAt": "2016-01-07T01:32:26.889Z",
+  "approvedAt": "2016-05-25T08:51:08.374Z",
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "typescript",
+    "csharp",
+    "php",
+    "python"
+  ],
+  "url": "https://www.codewars.com/kata/568dc014440f03b13900001d",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2016-01-07T01:32:04.467Z",
+  "createdBy": {
+    "username": "Swolebrain",
+    "url": "https://www.codewars.com/users/Swolebrain"
+  },
+  "approvedBy": {
+    "username": "donaldsebleung",
+    "url": "https://www.codewars.com/users/donaldsebleung"
+  },
+  "description": "Write a function `getDrinkByProfession`/`get_drink_by_profession()` that receives as input parameter a string, and produces outputs according to the following table:\n\n<table>\n<tbody>\n<tr>\n<td>Input</td>\n<td>Output</td>\n</tr>\n<tr>\n<td>\"Jabroni\"</td>\n<td>\"Patron Tequila\"</td>\n</tr>\n<tr>\n<td>\"School Counselor\"</td>\n<td>\"Anything with Alcohol\"</td>\n</tr>\n<tr>\n<td> \"Programmer\"</td>\n<td> \"Hipster Craft Beer\"</td>\n</tr>\n<tr>\n<td> \"Bike Gang Member\"</td>\n<td>\"Moonshine\" </td>\n</tr>\n<tr>\n<td> \"Politician\"</td>\n<td>\"Your tax dollars\" </td>\n</tr>\n<tr>\n<td> \"Rapper\"</td>\n<td>\"Cristal\" </td>\n</tr>\n<tr>\n<td> *anything else* </td>\n<td>\"Beer\" </td>\n</tr>\n</tbody>\n</table>\n</br>\n\nNote: *anything else* is the default case: if the input to the function is not any of the values in the table, then the return value should be \"Beer.\"\n\nMake sure you cover the cases where certain words do not show up with correct capitalization. For example, getDrinkByProfession(\"pOLitiCIaN\") should still return \"Your tax dollars\".\n",
+  "totalAttempts": 9337,
+  "totalCompleted": 2770,
+  "totalStars": 37,
+  "voteScore": 383,
+  "tags": [
+    "Fundamentals",
+    "Conditional Statements",
+    "Control Flow",
+    "Basic Language Features",
+    "Strings",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 1
+  }
+}

@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>1836</td>
+      <td>1847</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>911</td>
+      <td>921</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>28</td>
+      <td>33</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -85,7 +85,7 @@
     <td>javascript</td>
     <td>3 kyu</td>
     <td>-</td>
-    <td>3</td>
+    <td>4</td>
     <td>4</td>
     <td>4</td>
     <td>5</td>
@@ -93,7 +93,21 @@
     <td>4</td>
     <td>2</td>
     <td>-</td>
-    <td>27</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>php</td>
+    <td>8 kyu</td>
+    <td>-</td>
+    <td>3</td>
+    <td>1</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>4</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -121,16 +135,16 @@
   </thead>
   <tbody></tbody>
   <tr>
-    <td>Algorithms</td>
-    <td>18</td>
+    <td>Fundamentals</td>
+    <td>19</td>
   </tr>
   <tr>
     <td>Data Types</td>
-    <td>14</td>
+    <td>18</td>
   </tr>
   <tr>
-    <td>Fundamentals</td>
-    <td>14</td>
+    <td>Algorithms</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>Logic</td>
@@ -138,27 +152,27 @@
   </tr>
   <tr>
     <td>Strings</td>
-    <td>10</td>
+    <td>11</td>
   </tr>
   <tr>
     <td>Arrays</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Basic Language Features</td>
-    <td>5</td>
+    <td>9</td>
   </tr>
   <tr>
     <td>Numbers</td>
-    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Basic Language Features</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Data Structures</td>
+    <td>4</td>
   </tr>
   <tr>
     <td>Mathematics</td>
     <td>4</td>
-  </tr>
-  <tr>
-    <td>Parsing</td>
-    <td>3</td>
   </tr>
 </table>
 <h2>Solved katas by language</h2>
@@ -294,6 +308,11 @@
   </tr>
   <tr>
     <td>8 kyu</td>
+    <td><a href="./kata/is-he-gonna-survive">Is he gonna survive?</a></td>
+    <td>2020-04-10</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
     <td><a href="./kata/is-the-string-uppercase">Is the string uppercase?</a></td>
     <td>2020-04-05</td>
   </tr>
@@ -306,6 +325,37 @@
     <td>8 kyu</td>
     <td><a href="./kata/multiply">Multiply</a></td>
     <td>2019-11-01</td>
+  </tr>
+</table>
+<h3>php</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Difficulty</th>
+      <th>Name</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+  <tr>
+    <td>7 kyu</td>
+    <td><a href="./kata/computer-problem-series-number-1-fill-the-hard-disk-drive">Computer problem series #1: Fill the Hard Disk Drive</a></td>
+    <td>2020-04-10</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/you-cant-code-under-pressure-number-1">You Can't Code Under Pressure #1</a></td>
+    <td>2020-04-10</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/all-star-code-challenge-number-18">All Star Code Challenge #18</a></td>
+    <td>2020-04-10</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/l1-bartender-drinks">L1: Bartender, drinks!</a></td>
+    <td>2020-04-10</td>
   </tr>
 </table>
 <h3>sql</h3>

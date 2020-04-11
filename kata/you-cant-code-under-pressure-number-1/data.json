@@ -1,0 +1,56 @@
+{
+  "id": "53ee5429ba190077850011d4",
+  "name": "You Can't Code Under Pressure #1",
+  "slug": "you-cant-code-under-pressure-number-1",
+  "category": "reference",
+  "publishedAt": "2014-08-15T18:40:46.276Z",
+  "approvedAt": "2014-08-25T03:53:31.381Z",
+  "languages": [
+    "javascript",
+    "python",
+    "coffeescript",
+    "ruby",
+    "haskell",
+    "clojure",
+    "java",
+    "elixir",
+    "csharp",
+    "nasm",
+    "c",
+    "cpp",
+    "php",
+    "prolog",
+    "bf"
+  ],
+  "url": "https://www.codewars.com/kata/53ee5429ba190077850011d4",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2014-08-15T18:40:41.583Z",
+  "createdBy": {
+    "username": "Kerrick",
+    "url": "https://www.codewars.com/users/Kerrick"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Code as fast as you can! You need to double the integer and return it.",
+  "totalAttempts": 38645,
+  "totalCompleted": 22972,
+  "totalStars": 85,
+  "voteScore": 1018,
+  "tags": [
+    "Fundamentals",
+    "Numbers",
+    "Data Types",
+    "Integers"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 1
+  }
+}

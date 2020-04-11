@@ -1,0 +1,58 @@
+{
+  "id": "5d49c93d089c6e000ff8428c",
+  "name": "Computer problem series #1: Fill the Hard Disk Drive",
+  "slug": "computer-problem-series-number-1-fill-the-hard-disk-drive",
+  "category": "reference",
+  "publishedAt": "2019-08-08T11:18:44.390Z",
+  "approvedAt": "2019-08-14T12:45:38.308Z",
+  "languages": [
+    "python",
+    "dart",
+    "coffeescript",
+    "php",
+    "typescript",
+    "cpp",
+    "ruby",
+    "c",
+    "javascript",
+    "haskell",
+    "crystal",
+    "crystal",
+    "julia",
+    "elixir",
+    "clojure",
+    "csharp"
+  ],
+  "url": "https://www.codewars.com/kata/5d49c93d089c6e000ff8428c",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2019-08-06T18:38:53.360Z",
+  "createdBy": {
+    "username": "albertogcmr",
+    "url": "https://www.codewars.com/users/albertogcmr"
+  },
+  "approvedBy": {
+    "username": "daniloxxv",
+    "url": "https://www.codewars.com/users/daniloxxv"
+  },
+  "description": "Your task is to determine how many files of the copy queue you will be able to save into your Hard Disk Drive. The files must be saved in the order they appear in the queue. \n\n### Input:\n\n* Array of file sizes `(0 <= s <= 100)`\n* Capacity of the HD `(0 <= c <= 500)`\n\n### Output:\n\n* Number of files that can be fully saved in the HD. \n\n### Examples:\n\n```\nsave([4,4,4,3,3], 12) -> 3\n# 4+4+4 <= 12, but 4+4+4+3 > 12\n```\n\n```\nsave([4,4,4,3,3], 11) -> 2\n# 4+4 <= 11, but 4+4+4 > 11\n```\n\nDo not expect any negative or invalid inputs.",
+  "totalAttempts": 6964,
+  "totalCompleted": 1553,
+  "totalStars": 25,
+  "voteScore": 281,
+  "tags": [
+    "Fundamentals",
+    "Lists",
+    "Data Structures",
+    "Arrays",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 1
+  }
+}
