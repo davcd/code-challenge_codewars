@@ -1,0 +1,59 @@
+{
+  "id": "56b7f2f3f18876033f000307",
+  "name": "Are the numbers in order?",
+  "slug": "are-the-numbers-in-order",
+  "category": "algorithms",
+  "publishedAt": "2016-02-08T03:29:11.419Z",
+  "approvedAt": "2016-02-09T08:00:38.543Z",
+  "languages": [
+    "javascript",
+    "csharp",
+    "python",
+    "cpp",
+    "php",
+    "ruby",
+    "haskell",
+    "crystal",
+    "go",
+    "c",
+    "nasm",
+    "java",
+    "factor"
+  ],
+  "url": "https://www.codewars.com/kata/56b7f2f3f18876033f000307",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2016-02-08T01:44:19.831Z",
+  "createdBy": {
+    "username": "donaldsebleung",
+    "url": "https://www.codewars.com/users/donaldsebleung"
+  },
+  "approvedBy": {
+    "username": "raulbc777",
+    "url": "https://www.codewars.com/users/raulbc777"
+  },
+  "description": "# Are the numbers in order?\n\nIn this Kata, your function receives an array of integers as input.  Your task is to determine whether the numbers are in ascending order.  An array is said to be in ascending order if there are no two adjacent integers where the left integer exceeds the right integer in value.\n\nFor the purposes of this Kata, you may assume that all inputs are valid, i.e. non-empty arrays containing only integers.\n\nNote that an array of 1 integer is automatically considered to be sorted in ascending order since all (zero) adjacent pairs of integers satisfy the condition that the left integer does not exceed the right integer in value.  An empty list is considered a degenerate case and therefore will not be tested in this Kata - feel free to raise an Issue if you see such a list being tested.\n\nFor example:\n\n```java\nisAscOrder(new int[]{1,2,4,7,19}) == true\nisAscOrder(new int[]{1,2,3,4,5}) == true\nisAscOrder(new int[]{1,6,10,18,2,4,20}) == false\nisAscOrder(new int[]{9,8,7,6,5,4,3,2,1}) == false // numbers are in DESCENDING order\n```\n```c\nin_asc_order({1,2,4,7,19}, 5); // returns true\nin_asc_order({1,2,3,4,5}, 5); // returns true\nin_asc_order({1,6,10,18,2,4,20}, 7); // returns false\nin_asc_order({9,8,7,6,5,4,3,2,1}, 9); // returns false because the numbers are in DESCENDING order\n```\n```js\ninAscOrder([1,2,4,7,19]); // returns true\ninAscOrder([1,2,3,4,5]); // returns true\ninAscOrder([1,6,10,18,2,4,20]); // returns false\ninAscOrder([9,8,7,6,5,4,3,2,1]); // returns false because the numbers are in DESCENDING order\n```\n```cpp\ninAscOrder([1,2,4,7,19]); // returns true\ninAscOrder([1,2,3,4,5]); // returns true\ninAscOrder([1,6,10,18,2,4,20]); // returns false\ninAscOrder([9,8,7,6,5,4,3,2,1]); // returns false because the numbers are in DESCENDING order\n```\n```csharp\nKata.IsAscOrder(new int[]{1,2,4,7,19}) == true\nKata.IsAscOrder(new int[]{1,2,3,4,5}) == true\nKata.IsAscOrder(new int[]{1,6,10,18,2,4,20}) == false\nKata.IsAscOrder(new int[]{9,8,7,6,5,4,3,2,1}) == false // numbers are in DESCENDING order\n```\n```python\nin_asc_order([1,2,4,7,19]) # returns True\nin_asc_order([1,2,3,4,5]); // returns True\nin_asc_order([1,6,10,18,2,4,20]) # returns False\nin_asc_order([9,8,7,6,5,4,3,2,1]) # returns False because the numbers are in DESCENDING order\n```\n```php\nin_asc_order([1, 2, 4, 7, 19]); // true\nin_asc_order([1, 2, 3, 4, 5]); // true\nin_asc_order([1, 6, 10, 18, 2, 4, 20]); // false\nin_asc_order([9, 8, 7, 6, 5, 4, 3, 2, 1]); // false (NOTE: because the numbers are in DESCENDING order, not ascending order)\n```\n```haskell\nisAscOrder [1, 2, 4, 7, 19] -- True\nisAscOrder [1, 2, 3, 4, 5] -- True\nisAscOrder [1, 6, 10, 18, 2, 4, 20] -- False\nisAscOrder [9, 8, 7, 6, 5, 4, 3, 2, 1] -- False (NOTE: because the numbers are in DESCENDING order, not ascending order)\n```\n```ruby\nis_asc_order([1,2,4,7,19]) # returns True\nis_asc_order([1,2,3,4,5]); // returns True\nis_asc_order([1,6,10,18,2,4,20]) # returns False\nis_asc_order([9,8,7,6,5,4,3,2,1]) # returns False because the numbers are in DESCENDING order\n```\n```crystal\nis_asc_order([1,2,4,7,19]) # returns True\nis_asc_order([1,2,3,4,5]); // returns True\nis_asc_order([1,6,10,18,2,4,20]) # returns False\nis_asc_order([9,8,7,6,5,4,3,2,1]) # returns False because the numbers are in DESCENDING order\n```\n```go\nInAscOrder([]int{1, 2, 4, 7, 19}) # returns True\nInAscOrder([]int{1, 2, 3, 4, 5}) // returns True\nInAscOrder([]int{1, 6, 10, 18, 2, 4, 20}) # returns False\nInAscOrder([]int{9, 8, 7, 6, 5, 4, 3, 2, 1}) # returns False because the numbers are in DESCENDING order\n```\n```nasm\nin_asc_order({1,2,4,7,19}, 5); // => 1\nin_asc_order({1,2,3,4,5}, 5); // => 1\nin_asc_order({1,6,10,18,2,4,20}, 7); // => 0\nin_asc_order({9,8,7,6,5,4,3,2,1}, 9); // => 0\n```\n```factor\n{ 1 2 4 7 19 } in-asc-order? ! returns t\n{ 1 2 3 4 5 } in-asc-order? ! returns t\n{ 1 6 10 18 2 4 20 } in-asc-order? ! returns f\n{ 9 8 7 6 5 4 3 2 1 } in-asc-order? ! returns f because the numbers are in DESCENDING order\n```\n\n~~~if:nasm\n**10/08/2018: Codewars doesn't support NASM code blocks in the Kata Description yet - please refer to the Sample Test Cases instead.**\n~~~\n\n*N.B. If your solution passes all fixed tests but fails at the random tests, make sure you aren't mutating the input array.*\n",
+  "totalAttempts": 44833,
+  "totalCompleted": 11095,
+  "totalStars": 94,
+  "voteScore": 1094,
+  "tags": [
+    "Algorithms",
+    "Fundamentals",
+    "Mathematics",
+    "Logic",
+    "Numbers",
+    "Data Types",
+    "Control Flow",
+    "Basic Language Features",
+    "Optimization"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 1
+  }
+}

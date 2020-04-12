@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>1847</td>
+      <td>1867</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>921</td>
+      <td>937</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>33</td>
+      <td>38</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -97,17 +97,17 @@
   </tr>
   <tr>
     <td>php</td>
-    <td>8 kyu</td>
+    <td>7 kyu</td>
     <td>-</td>
     <td>3</td>
+    <td>5</td>
     <td>1</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>-</td>
-    <td>4</td>
+    <td>9</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -136,42 +136,42 @@
   <tbody></tbody>
   <tr>
     <td>Fundamentals</td>
-    <td>19</td>
-  </tr>
-  <tr>
-    <td>Data Types</td>
-    <td>18</td>
+    <td>24</td>
   </tr>
   <tr>
     <td>Algorithms</td>
-    <td>18</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Data Types</td>
+    <td>21</td>
   </tr>
   <tr>
     <td>Logic</td>
-    <td>12</td>
+    <td>14</td>
   </tr>
   <tr>
     <td>Strings</td>
-    <td>11</td>
+    <td>13</td>
   </tr>
   <tr>
     <td>Arrays</td>
-    <td>9</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>Numbers</td>
-    <td>6</td>
+    <td>9</td>
   </tr>
   <tr>
     <td>Basic Language Features</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>Data Structures</td>
-    <td>4</td>
+    <td>7</td>
   </tr>
   <tr>
     <td>Mathematics</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>Control Flow</td>
     <td>4</td>
   </tr>
 </table>
@@ -337,6 +337,31 @@
     </tr>
   </thead>
   <tbody></tbody>
+  <tr>
+    <td>6 kyu</td>
+    <td><a href="./kata/convert-string-to-camel-case">Convert string to camel case</a></td>
+    <td>2020-04-11</td>
+  </tr>
+  <tr>
+    <td>7 kyu</td>
+    <td><a href="./kata/alternate-capitalization">Alternate capitalization</a></td>
+    <td>2020-04-11</td>
+  </tr>
+  <tr>
+    <td>7 kyu</td>
+    <td><a href="./kata/sum-of-minimums">Sum of Minimums!</a></td>
+    <td>2020-04-11</td>
+  </tr>
+  <tr>
+    <td>7 kyu</td>
+    <td><a href="./kata/find-the-area-of-the-rectangle">Find the area of the rectangle!</a></td>
+    <td>2020-04-11</td>
+  </tr>
+  <tr>
+    <td>7 kyu</td>
+    <td><a href="./kata/are-the-numbers-in-order">Are the numbers in order?</a></td>
+    <td>2020-04-11</td>
+  </tr>
   <tr>
     <td>7 kyu</td>
     <td><a href="./kata/computer-problem-series-number-1-fill-the-hard-disk-drive">Computer problem series #1: Fill the Hard Disk Drive</a></td>

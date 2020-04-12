@@ -1,0 +1,50 @@
+{
+  "id": "5d5ee4c35162d9001af7d699",
+  "name": "Sum of Minimums!",
+  "slug": "sum-of-minimums",
+  "category": "reference",
+  "publishedAt": "2019-08-22T18:54:16.208Z",
+  "approvedAt": "2020-02-06T23:48:48.187Z",
+  "languages": [
+    "cpp",
+    "python",
+    "c",
+    "nasm",
+    "javascript",
+    "cfml",
+    "csharp",
+    "ruby",
+    "php"
+  ],
+  "url": "https://www.codewars.com/kata/5d5ee4c35162d9001af7d699",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2019-08-22T18:53:56.132Z",
+  "createdBy": {
+    "username": "Aizaz_Ahmad",
+    "url": "https://www.codewars.com/users/Aizaz_Ahmad"
+  },
+  "approvedBy": {
+    "username": "temen",
+    "url": "https://www.codewars.com/users/temen"
+  },
+  "description": "~~~if:csharp,javascript,cfml,php\nGiven a 2D array of size `m * n`. Your task is to find the sum of minimum value in each row.\n~~~\n~~~if:cpp\nGiven a 2D vector of size `m * n`. Your task is to find the sum of minimum value in each row.\n~~~\n~~~if:python,ruby\nGiven a 2D list of size `m * n`. Your task is to find the sum of minimum value in each row.\n~~~\n\nFor Example:\n```cpp\n{\n  {1,2,3,4,5},       // minimum value of row is 1\n  {5,6,7,8,9},       // minimum value of row is 5\n  {20,21,34,56,100}  // minimum value of row is 20\n}\n```\n```csharp\n{\n  {1,2,3,4,5},       // minimum value of row is 1\n  {5,6,7,8,9},       // minimum value of row is 5\n  {20,21,34,56,100}  // minimum value of row is 20\n}\n```\n```python\n[\n  [1, 2, 3, 4, 5],       # minimum value of row is 1\n  [5, 6, 7, 8, 9],       # minimum value of row is 5\n  [20, 21, 34, 56, 100]  # minimum value of row is 20\n]\n```\n```ruby\n[\n  [1, 2, 3, 4, 5],       # minimum value of row is 1\n  [5, 6, 7, 8, 9],       # minimum value of row is 5\n  [20, 21, 34, 56, 100]  # minimum value of row is 20\n]\n```\n```javascript\n[\n  [1, 2, 3, 4, 5],       // minimum value of row is 1\n  [5, 6, 7, 8, 9],       // minimum value of row is 5\n  [20, 21, 34, 56, 100]  // minimum value of row is 20\n]\n```\n```cfml\n[\n  [1, 2, 3, 4, 5],       // minimum value of row is 1\n  [5, 6, 7, 8, 9],       // minimum value of row is 5\n  [20, 21, 34, 56, 100]  // minimum value of row is 20\n]\n```\n```php\n[\n  [1, 2, 3, 4, 5],       # minimum value of row is 1\n  [5, 6, 7, 8, 9],       # minimum value of row is 5\n  [20, 21, 34, 56, 100]  # minimum value of row is 20\n]\n```\nSo, the function should return `26` because sum of minimums is as `1 + 5 + 20 = 26`\n\n~~~if:javascript,php\nNote: You will be always given non-empty array containing Positive values.\n~~~\n~~~if:python\nNote: You will be always given non-empty list containing Positive values.\n~~~\n~~~if:cpp\nNote: You will be always given non-empty vector containing Positive values.\n~~~\n~~~if:c#\nNote: You will be always given non-empty vector containing Positive values.\n~~~\n~~~if:cfml\nNote: You will be always given non-empty array containing Positive values.\n~~~\n\nENJOY CODING :)\n",
+  "totalAttempts": 12158,
+  "totalCompleted": 4281,
+  "totalStars": 50,
+  "voteScore": 612,
+  "tags": [
+    "Fundamentals",
+    "Numbers",
+    "Data Types",
+    "Arrays"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

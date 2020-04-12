@@ -1,0 +1,57 @@
+{
+  "id": "517abf86da9663f1d2000003",
+  "name": "Convert string to camel case",
+  "slug": "convert-string-to-camel-case",
+  "category": "algorithms",
+  "publishedAt": "2013-07-25T01:40:25.970Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "ruby",
+    "haskell",
+    "python",
+    "csharp",
+    "cpp",
+    "java",
+    "elixir",
+    "r",
+    "objc",
+    "php",
+    "go",
+    "powershell",
+    "julia",
+    "kotlin",
+    "scala"
+  ],
+  "url": "https://www.codewars.com/kata/517abf86da9663f1d2000003",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2013-04-26T17:55:18.266Z",
+  "createdBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized **only** if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). \n\n## Examples\n\n```php\ntoCamelCase(\"the-stealth-warrior\"); // returns \"theStealthWarrior\"\n\ntoCamelCase(\"The_Stealth_Warrior\"); // returns \"TheStealthWarrior\"\n```\n```objc\ntoCamelCase(@\"the-stealth-warrior\"); // => @\"theStealthWarrior\"\n\ntoCamelCase(@\"The_Stealth_Warrior\"); // => @\"TheStealthWarrior\"\n```\n```javascript\ntoCamelCase(\"the-stealth-warrior\") // returns \"theStealthWarrior\"\n\ntoCamelCase(\"The_Stealth_Warrior\") // returns \"TheStealthWarrior\"\n```\n```coffeescript\ntoCamelCase(\"the-stealth-warrior\") # returns \"theStealthWarrior\"\n\ntoCamelCase(\"The_Stealth_Warrior\") # returns \"TheStealthWarrior\"\n```\n```ruby\nto_camel_case(\"the-stealth-warrior\") # returns \"theStealthWarrior\"\n\nto_camel_case(\"The_Stealth_Warrior\") # returns \"TheStealthWarrior\"\n```\n```python\nto_camel_case(\"the-stealth-warrior\") # returns \"theStealthWarrior\"\n\nto_camel_case(\"The_Stealth_Warrior\") # returns \"TheStealthWarrior\"\n```\n```elixir\nto_camel_case(\"the-stealth-warrior\") # returns \"theStealthWarrior\"\n\nto_camel_case(\"The_Stealth_Warrior\") # returns \"TheStealthWarrior\"\n```\n```haskell\ntoCamelCase \"the-stealth-warrior\" -- returns \"theStealthWarrior\"\n\ntoCamelCase \"The_Stealth_Warrior\" -- returns \"TheStealthWarrior\"\n```\n```csharp\nKata.ToCamelCase(\"the-stealth-warrior\") // returns \"theStealthWarrior\"\n\nKata.ToCamelCase(\"The_Stealth_Warrior\") // returns \"TheStealthWarrior\"\n```\n```cpp\nto_camel_case(\"the-stealth-warrior\") // returns \"theStealthWarrior\"\n\nto_camel_case(\"The_Stealth_Warrior\") // returns \"TheStealthWarrior\"\n```\n```r\nto_camel_case(\"the-stealth-warrior\") # returns \"theStealthWarrior\"\n\nto_camel_case(\"The_Stealth_Warrior\") # returns \"TheStealthWarrior\"\n\nto_camel_case(\"mixed-separator_example\") # returns \"mixedSeparatorExample\"\n```\n```go\nToCamelCase(\"the-stealth-warrior\"); // returns \"theStealthWarrior\"\n\nToCamelCase(\"The_Stealth_Warrior\"); // returns \"TheStealthWarrior\"\n```\n```julia\ntocamelcase(\"the-stealth-warrior\") # returns \"theStealthWarrior\"\ntocamelcase(\"The_Stealth_Warrior\") # returns \"TheStealthWarrior\"\n```\n```scala\ntoCamelCase(\"the-stealth-warrior\") // returns \"theStealthWarrior\"\n\ntoCamelCase(\"The_Stealth_Warrior\") // returns \"TheStealthWarrior\"\n```",
+  "totalAttempts": 242094,
+  "totalCompleted": 40284,
+  "totalStars": 756,
+  "voteScore": 3643,
+  "tags": [
+    "Algorithms",
+    "Regular Expressions",
+    "Declarative Programming",
+    "Advanced Language Features",
+    "Programming Paradigms",
+    "Fundamentals",
+    "Strings"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 12,
+    "suggestions": 8
+  }
+}

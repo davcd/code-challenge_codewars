@@ -1,0 +1,56 @@
+{
+  "id": "59cfc000aeb2844d16000075",
+  "name": "Alternate capitalization",
+  "slug": "alternate-capitalization",
+  "category": "reference",
+  "publishedAt": "2017-09-30T19:11:24.066Z",
+  "approvedAt": "2017-10-01T09:16:20.574Z",
+  "languages": [
+    "python",
+    "javascript",
+    "lua",
+    "ruby",
+    "haskell",
+    "c",
+    "nasm",
+    "coffeescript",
+    "crystal",
+    "dart",
+    "typescript",
+    "php",
+    "java",
+    "cpp",
+    "csharp",
+    "elixir"
+  ],
+  "url": "https://www.codewars.com/kata/59cfc000aeb2844d16000075",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2017-09-30T16:02:08.759Z",
+  "createdBy": {
+    "username": "KenKamau",
+    "url": "https://www.codewars.com/users/KenKamau"
+  },
+  "approvedBy": {
+    "username": "St3f4n",
+    "url": "https://www.codewars.com/users/St3f4n"
+  },
+  "description": "Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below. Index `0` will be considered even.\n\nFor example, `capitalize(\"abcdef\") = ['AbCdEf', 'aBcDeF']`. See test cases for more examples.\n\nThe input will be a lowercase string with no spaces.\n\nGood luck!\n\nIf you like this Kata, please try: \n\n[Indexed capitalization](https://www.codewars.com/kata/59cfc09a86a6fdf6df0000f1)\n\n[Even-odd disparity](https://www.codewars.com/kata/59c62f1bdcc40560a2000060)",
+  "totalAttempts": 22889,
+  "totalCompleted": 6164,
+  "totalStars": 83,
+  "voteScore": 815,
+  "tags": [
+    "Fundamentals",
+    "Strings",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

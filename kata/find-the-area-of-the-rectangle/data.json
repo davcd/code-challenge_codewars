@@ -1,0 +1,47 @@
+{
+  "id": "580a0347430590220e000091",
+  "name": "Find the area of the rectangle!",
+  "slug": "find-the-area-of-the-rectangle",
+  "category": "reference",
+  "publishedAt": "2016-10-21T12:00:07.763Z",
+  "approvedAt": "2016-10-22T14:27:09.495Z",
+  "languages": [
+    "javascript",
+    "php",
+    "python",
+    "coffeescript",
+    "ruby"
+  ],
+  "url": "https://www.codewars.com/kata/580a0347430590220e000091",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2016-10-21T12:00:16.665Z",
+  "createdBy": {
+    "username": "iamchingel",
+    "url": "https://www.codewars.com/users/iamchingel"
+  },
+  "approvedBy": {
+    "username": "myjinxin2015",
+    "url": "https://www.codewars.com/users/myjinxin2015"
+  },
+  "description": "Find the area of a rectangle when provided with one diagonal and one side of the rectangle. If the input diagonal is less than or equal to the length of the side, return \"Not a rectangle\". If the resultant area has decimals round it to two places.\n\n`This kata is meant for beginners. Rank and upvote to bring it out of beta!`",
+  "totalAttempts": 4754,
+  "totalCompleted": 1155,
+  "totalStars": 18,
+  "voteScore": 161,
+  "tags": [
+    "Fundamentals",
+    "Mathematics",
+    "Algorithms",
+    "Logic",
+    "Numbers"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}
