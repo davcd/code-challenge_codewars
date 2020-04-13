@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>1867</td>
+      <td>1883</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>937</td>
+      <td>953</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>38</td>
+      <td>40</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -101,13 +101,13 @@
     <td>-</td>
     <td>3</td>
     <td>5</td>
-    <td>1</td>
+    <td>3</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>9</td>
+    <td>11</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -136,27 +136,27 @@
   <tbody></tbody>
   <tr>
     <td>Fundamentals</td>
-    <td>24</td>
+    <td>26</td>
   </tr>
   <tr>
     <td>Algorithms</td>
-    <td>21</td>
+    <td>23</td>
   </tr>
   <tr>
     <td>Data Types</td>
-    <td>21</td>
+    <td>23</td>
   </tr>
   <tr>
     <td>Logic</td>
-    <td>14</td>
+    <td>16</td>
   </tr>
   <tr>
     <td>Strings</td>
-    <td>13</td>
+    <td>14</td>
   </tr>
   <tr>
     <td>Arrays</td>
-    <td>10</td>
+    <td>11</td>
   </tr>
   <tr>
     <td>Numbers</td>
@@ -164,7 +164,7 @@
   </tr>
   <tr>
     <td>Basic Language Features</td>
-    <td>7</td>
+    <td>8</td>
   </tr>
   <tr>
     <td>Mathematics</td>
@@ -172,7 +172,7 @@
   </tr>
   <tr>
     <td>Control Flow</td>
-    <td>4</td>
+    <td>5</td>
   </tr>
 </table>
 <h2>Solved katas by language</h2>
@@ -337,6 +337,16 @@
     </tr>
   </thead>
   <tbody></tbody>
+  <tr>
+    <td>6 kyu</td>
+    <td><a href="./kata/linux-history-and-`-`-command-series-number-1-the-`-`-command">Linux history and  `!` command. Series#1  The `!!` command</a></td>
+    <td>2020-04-12</td>
+  </tr>
+  <tr>
+    <td>6 kyu</td>
+    <td><a href="./kata/snap">SNAP</a></td>
+    <td>2020-04-12</td>
+  </tr>
   <tr>
     <td>6 kyu</td>
     <td><a href="./kata/convert-string-to-camel-case">Convert string to camel case</a></td>

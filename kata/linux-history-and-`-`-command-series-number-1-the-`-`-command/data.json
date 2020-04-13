@@ -1,0 +1,53 @@
+{
+  "id": "58143221f9588e340e00009f",
+  "name": "Linux history and  `!` command. Series#1  The `!!` command",
+  "slug": "linux-history-and-`-`-command-series-number-1-the-`-`-command",
+  "category": "algorithms",
+  "publishedAt": "2016-10-29T05:22:59.989Z",
+  "approvedAt": "2016-10-29T21:30:30.105Z",
+  "languages": [
+    "ruby",
+    "crystal",
+    "javascript",
+    "coffeescript",
+    "python",
+    "php"
+  ],
+  "url": "https://www.codewars.com/kata/58143221f9588e340e00009f",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2016-10-29T05:22:41.724Z",
+  "createdBy": {
+    "username": "nbeck",
+    "url": "https://www.codewars.com/users/nbeck"
+  },
+  "approvedBy": {
+    "username": "suic",
+    "url": "https://www.codewars.com/users/suic"
+  },
+  "description": "All Unix user know the command line `history`. This one comes with a set of useful commands know as the `bang` command. \n\nFor more information about the history command line you can take a look at: \n\n- The man page -> simply type `man history` in your terminal.\n- The online man page [here](https://linux.die.net/man/3/history).\n- And for more information about the `bang` command you can read [this article](http://jaysoo.ca/2009/09/16/unix-history-and-bang-commands/)\n\nFor this first kata we will explore the `!!` command, according to the man page this one refer to the previous command.  This is a synonym for `!-1`.\n\nIn this kata you should complete a function that take in argument an `history` with the following format: \n\n```\n  1  cd /pub\n  2  more beer\n  3  lost\n  4  ls \n  5  touch me \n  6  chmod 000 me \n  7  more me\n  8  history\n```\n\nand that should return the last executed command line, in this case it will be `history`.\n\n**Note**: Lot of the command line comes form some geeky t-shirt and form this [excellent page](http://langevin.univ-tln.fr/cours/UPS/extra/unix-shell-jokes.txt).\n\n\n",
+  "totalAttempts": 1454,
+  "totalCompleted": 245,
+  "totalStars": 10,
+  "voteScore": 74,
+  "tags": [
+    "Algorithms",
+    "Strings",
+    "Data Types",
+    "Parsing",
+    "Logic",
+    "Regular Expressions",
+    "Declarative Programming",
+    "Advanced Language Features",
+    "Programming Paradigms",
+    "Fundamentals"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}
