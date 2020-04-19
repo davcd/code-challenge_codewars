@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>1883</td>
+      <td>1899</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>953</td>
+      <td>969</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>40</td>
+      <td>42</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -101,13 +101,13 @@
     <td>-</td>
     <td>3</td>
     <td>5</td>
-    <td>3</td>
+    <td>5</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>11</td>
+    <td>13</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -136,43 +136,43 @@
   <tbody></tbody>
   <tr>
     <td>Fundamentals</td>
-    <td>26</td>
+    <td>28</td>
   </tr>
   <tr>
     <td>Algorithms</td>
-    <td>23</td>
+    <td>25</td>
   </tr>
   <tr>
     <td>Data Types</td>
-    <td>23</td>
+    <td>24</td>
   </tr>
   <tr>
     <td>Logic</td>
-    <td>16</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>Strings</td>
-    <td>14</td>
+    <td>15</td>
   </tr>
   <tr>
     <td>Arrays</td>
-    <td>11</td>
+    <td>12</td>
   </tr>
   <tr>
     <td>Numbers</td>
-    <td>9</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>Basic Language Features</td>
-    <td>8</td>
+    <td>9</td>
   </tr>
   <tr>
     <td>Mathematics</td>
-    <td>6</td>
+    <td>7</td>
   </tr>
   <tr>
     <td>Control Flow</td>
-    <td>5</td>
+    <td>6</td>
   </tr>
 </table>
 <h2>Solved katas by language</h2>
@@ -337,6 +337,16 @@
     </tr>
   </thead>
   <tbody></tbody>
+  <tr>
+    <td>6 kyu</td>
+    <td><a href="./kata/playing-with-digits">Playing with digits</a></td>
+    <td>2020-04-18</td>
+  </tr>
+  <tr>
+    <td>6 kyu</td>
+    <td><a href="./kata/create-phone-number">Create Phone Number</a></td>
+    <td>2020-04-18</td>
+  </tr>
   <tr>
     <td>6 kyu</td>
     <td><a href="./kata/linux-history-and-`-`-command-series-number-1-the-`-`-command">Linux history and  `!` command. Series#1  The `!!` command</a></td>

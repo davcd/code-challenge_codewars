@@ -1,0 +1,70 @@
+{
+  "id": "5552101f47fc5178b1000050",
+  "name": "Playing with digits",
+  "slug": "playing-with-digits",
+  "category": "reference",
+  "publishedAt": "2015-05-12T14:38:35.669Z",
+  "approvedAt": "2015-06-05T16:35:19.081Z",
+  "languages": [
+    "ruby",
+    "python",
+    "csharp",
+    "java",
+    "javascript",
+    "haskell",
+    "clojure",
+    "coffeescript",
+    "cpp",
+    "php",
+    "crystal",
+    "fsharp",
+    "swift",
+    "c",
+    "typescript",
+    "go",
+    "shell",
+    "ocaml",
+    "julia",
+    "scala",
+    "r",
+    "powershell",
+    "kotlin",
+    "nasm",
+    "nim",
+    "rust",
+    "racket",
+    "reason"
+  ],
+  "url": "https://www.codewars.com/kata/5552101f47fc5178b1000050",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2015-05-12T14:37:20.006Z",
+  "createdBy": {
+    "username": "g964",
+    "url": "https://www.codewars.com/users/g964"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Some numbers have funny properties. For example:\n\n> 89 --> 8¹ + 9² = 89 * 1\n\n> 695 --> 6² + 9³ + 5⁴= 1390 = 695 * 2\n\n> 46288 --> 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n\nGiven a positive integer n written as abcd... (a, b, c, d... being digits) and a positive integer p \n- we want to find a positive integer k, if it exists, such as the sum of the digits of n taken to the successive powers of p is equal to k * n. \n\nIn other words:\n\n\n> Is there an integer k such as : (a ^ p + b ^ (p+1) + c ^(p+2) + d ^ (p+3) + ...) = n * k\n\nIf it is the case we will return k, if not return -1.\n\n**Note**: n and p will always be given as strictly positive integers.\n\n```julia\ndig_pow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndig_pow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndig_pow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```rust\ndig_pow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndig_pow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndig_pow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```ruby\ndig_pow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndig_pow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndig_pow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```crystal\ndig_pow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndig_pow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndig_pow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```python\ndig_pow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndig_pow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndig_pow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```csharp\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```fsharp\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```ocaml\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```php\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```cpp\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```java\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```javascript\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```coffeescript\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```go\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```haskell\ndigpow 89 1 should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigpow 92 1 should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigpow 695 2 should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigpow 46288 3 should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```clojure\ndig-pow 89 1 should return 1 since 8¹ + 9² = 89 = 89 * 1\ndig-pow 92 1 should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndig-pow 695 2 should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndig-pow 46288 3 should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```kotlin\ndigPow(89, 1) should return 1 since 8¹ + 9² = 89 = 89 * 1\ndigPow(92, 1) should return -1 since there is no k such as 9¹ + 2² equals 92 * k\ndigPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\ndigPow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```\n```nasm\nmov edi, 89\nmov esi, 1\ncall dig_pow  ; EAX <- 1 since 8¹ + 9² = 89 = 89 * 1\n\nmov edi, 92\nmov esi, 1\ncall dig_pow  ; EAX <- -1 since there is no k such as 9¹ + 2² equals 92 * k\n\nmov edi, 695\nmov esi, 2\ncall dig_pow  ; EAX <- 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2\n\nmov edi, 46288\nmov esi, 3\ncall dig_pow  ; EAX <- 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51\n```",
+  "totalAttempts": 231602,
+  "totalCompleted": 48872,
+  "totalStars": 1446,
+  "voteScore": 5677,
+  "tags": [
+    "Fundamentals",
+    "Mathematics",
+    "Algorithms",
+    "Logic",
+    "Numbers"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 8
+  }
+}

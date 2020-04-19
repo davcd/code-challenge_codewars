@@ -1,0 +1,68 @@
+{
+  "id": "525f50e3b73515a6db000b83",
+  "name": "Create Phone Number",
+  "slug": "create-phone-number",
+  "category": "algorithms",
+  "publishedAt": "2013-10-17T02:52:21.801Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "ruby",
+    "java",
+    "dart",
+    "haskell",
+    "csharp",
+    "python",
+    "scala",
+    "groovy",
+    "crystal",
+    "powershell",
+    "go",
+    "c",
+    "nasm",
+    "rust",
+    "php",
+    "clojure",
+    "cpp",
+    "julia",
+    "cfml"
+  ],
+  "url": "https://www.codewars.com/kata/525f50e3b73515a6db000b83",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2013-10-17T02:52:19.283Z",
+  "createdBy": {
+    "username": "xDranik",
+    "url": "https://www.codewars.com/users/xDranik"
+  },
+  "description": "Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.\n\n<h3>Example:</h3>\n\n```javascript\ncreatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns \"(123) 456-7890\"\n```\n```cpp\ncreatePhoneNumber(int[10]{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}) // => returns \"(123) 456-7890\"\n```\n```crystal\ncreate_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns \"(123) 456-7890\"\n```\n```ruby\ncreatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns \"(123) 456-7890\"\n```\n```coffeescript\ncreatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns \"(123) 456-7890\"\n```\n```java\nKata.createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}) // => returns \"(123) 456-7890\"\n```\n```dart\ncreatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns \"(123) 456-7890\"\n```\n```haskell\ncreatePhoneNumber [1,2,3,4,5,6,7,8,9,0] -- => returns \"(123) 456-7890\"\n```\n```csharp\nKata.CreatePhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}) // => returns \"(123) 456-7890\"\n```\n```python\ncreate_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns \"(123) 456-7890\"\n```\n```scala\nKata.createPhoneNumber(Seq(1, 2, 3, 4, 5, 6, 7, 8, 9, 0)) # => returns \"(123) 456-7890\"\n```\n```php\ncreatePhoneNumber([1,2,3,4,5,6,7,8,9,0]); // => returns \"(123) 456-7890\"\n```\n```f#\ncreatePhoneNumber [1; 2; 3; 4; 5; 6; 7; 8; 9; 0] // => returns \"(123) 456-7890\"\n```\n```clojure\n(create-phone-number [1 2 3 4 5 6 7 8 9 0]) ;; => returns \"(123) 456-7890\"\n```\n```rust\ncreate_phone_number(&[1,2,3,4,5,6,7,8,9,0]); // returns \"(123) 456-7890\"\n```\n```go\nCreatePhoneNumber([10]uint{1,2,3,4,5,6,7,8,9,0})  // returns \"(123) 456-7890\"\n```\n```c\ncreate_phone_number(phnum, (const unsigned char[]){1,2,3,4,5,6,7,8,9,0});\n    /* phnum <- \"(123) 456-7890\" */\n```\n```nasm\nphnum:  resb 15\nnums:   db  1,2,3,4,5,6,7,8,9,0\n\nmov rdi, phnum\nmov rsi, nums\ncall create_phone_number  ; RAX <- phnum <- \"(123) 456-7890\" \n```\n```typescript\ncreatePhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns \"(123) 456-7890\"\n```\n```julia\ncreatephonenumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # -> returns \"(123) 456-7890\"\n```\n```cfml\ncreatePhoneNumber( [1, 2, 3, 4, 5, 6, 7, 8, 9, 0] ) // => returns \"(123) 456-7890\"\n```\n\nThe returned format must be correct in order to complete this challenge. <br/>\nDon't forget the space after the closing parentheses!",
+  "totalAttempts": 225795,
+  "totalCompleted": 74841,
+  "totalStars": 870,
+  "voteScore": 5765,
+  "tags": [
+    "Algorithms",
+    "Arrays",
+    "Data Types",
+    "Strings",
+    "Loops",
+    "Control Flow",
+    "Basic Language Features",
+    "Fundamentals",
+    "Formatting",
+    "Logic",
+    "Regular Expressions",
+    "Declarative Programming",
+    "Advanced Language Features",
+    "Programming Paradigms"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 5
+  }
+}
