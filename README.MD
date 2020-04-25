@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>1899</td>
+      <td>2072</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>969</td>
+      <td>1073</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>42</td>
+      <td>46</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -97,17 +97,17 @@
   </tr>
   <tr>
     <td>php</td>
-    <td>7 kyu</td>
+    <td>5 kyu</td>
     <td>-</td>
     <td>3</td>
     <td>5</td>
-    <td>5</td>
+    <td>6</td>
+    <td>-</td>
+    <td>3</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>13</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -135,40 +135,40 @@
   </thead>
   <tbody></tbody>
   <tr>
+    <td>Algorithms</td>
+    <td>29</td>
+  </tr>
+  <tr>
     <td>Fundamentals</td>
     <td>28</td>
   </tr>
   <tr>
-    <td>Algorithms</td>
-    <td>25</td>
-  </tr>
-  <tr>
     <td>Data Types</td>
-    <td>24</td>
+    <td>27</td>
   </tr>
   <tr>
     <td>Logic</td>
-    <td>18</td>
+    <td>22</td>
   </tr>
   <tr>
     <td>Strings</td>
-    <td>15</td>
-  </tr>
-  <tr>
-    <td>Arrays</td>
-    <td>12</td>
+    <td>16</td>
   </tr>
   <tr>
     <td>Numbers</td>
-    <td>10</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>Arrays</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>Mathematics</td>
+    <td>11</td>
   </tr>
   <tr>
     <td>Basic Language Features</td>
     <td>9</td>
-  </tr>
-  <tr>
-    <td>Mathematics</td>
-    <td>7</td>
   </tr>
   <tr>
     <td>Control Flow</td>
@@ -337,6 +337,26 @@
     </tr>
   </thead>
   <tbody></tbody>
+  <tr>
+    <td>4 kyu</td>
+    <td><a href="./kata/matrix-determinant">Matrix Determinant</a></td>
+    <td>2020-04-24</td>
+  </tr>
+  <tr>
+    <td>4 kyu</td>
+    <td><a href="./kata/sum-of-intervals">Sum of Intervals</a></td>
+    <td>2020-04-24</td>
+  </tr>
+  <tr>
+    <td>4 kyu</td>
+    <td><a href="./kata/sum-strings-as-numbers">Sum Strings as Numbers</a></td>
+    <td>2020-04-24</td>
+  </tr>
+  <tr>
+    <td>6 kyu</td>
+    <td><a href="./kata/pascals-triangle">Pascal's Triangle</a></td>
+    <td>2020-04-24</td>
+  </tr>
   <tr>
     <td>6 kyu</td>
     <td><a href="./kata/playing-with-digits">Playing with digits</a></td>

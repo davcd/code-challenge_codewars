@@ -1,0 +1,55 @@
+{
+  "id": "52a382ee44408cea2500074c",
+  "name": "Matrix Determinant",
+  "slug": "matrix-determinant",
+  "category": "algorithms",
+  "publishedAt": "2013-12-07T23:18:36.813Z",
+  "approvedAt": "2014-01-13T19:35:58.397Z",
+  "languages": [
+    "ruby",
+    "coffeescript",
+    "javascript",
+    "python",
+    "php",
+    "cpp",
+    "java",
+    "typescript",
+    "csharp",
+    "scala"
+  ],
+  "url": "https://www.codewars.com/kata/52a382ee44408cea2500074c",
+  "rank": {
+    "id": -4,
+    "name": "4 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2013-12-07T20:19:58.305Z",
+  "createdBy": {
+    "username": "pjfranzini",
+    "url": "https://www.codewars.com/users/pjfranzini"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Write a function that accepts a square matrix (`N x N` 2D array) and returns the determinant of the matrix.\n\nHow to take the determinant of a matrix -- it is simplest to start with the smallest cases:\n\nA 1x1 matrix `|a|` has determinant `a`.\n\nA 2x2 matrix `[ [a, b], [c, d] ]` or\n```js\n|a  b|\n|c  d|\n```\nhas determinant: `a*d - b*c`.\n\nThe determinant of an `n x n` sized matrix is calculated by reducing the problem to the calculation of the determinants of `n` matrices of`n-1 x n-1` size.\n\nFor the 3x3 case, `[ [a, b, c], [d, e, f], [g, h, i] ]` or\n```js\n|a b c|  \n|d e f|  \n|g h i|  \n```\nthe determinant is: `a * det(a_minor) - b * det(b_minor) + c * det(c_minor)` where `det(a_minor)` refers to taking the determinant of the 2x2 matrix created by crossing out the row and column in which the element a occurs:\n```js\n|- - -|\n|- e f|\n|- h i|  \n```\nNote the alternation of signs. \n\nThe determinant of larger matrices are calculated analogously, e.g. if M is a 4x4 matrix with first row `[a, b, c, d]`, then:\n\n`det(M) = a * det(a_minor) - b * det(b_minor) + c * det(c_minor) - d * det(d_minor)`\n",
+  "totalAttempts": 35165,
+  "totalCompleted": 5892,
+  "totalStars": 571,
+  "voteScore": 722,
+  "tags": [
+    "Algorithms",
+    "Graphs",
+    "Data Structures",
+    "Linear Algebra",
+    "Algebra",
+    "Mathematics",
+    "Logic",
+    "Numbers"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 3,
+    "suggestions": 1
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "5226eb40316b56c8d500030f",
+  "name": "Pascal's Triangle",
+  "slug": "pascals-triangle",
+  "category": "algorithms",
+  "publishedAt": "2013-09-04T08:52:35.224Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "ruby",
+    "coffeescript",
+    "csharp",
+    "haskell",
+    "php",
+    "python",
+    "crystal"
+  ],
+  "url": "https://www.codewars.com/kata/5226eb40316b56c8d500030f",
+  "rank": {
+    "id": -6,
+    "name": "6 kyu",
+    "color": "yellow"
+  },
+  "createdAt": "2013-09-04T08:11:45.155Z",
+  "createdBy": {
+    "username": "boatmeme",
+    "url": "https://www.codewars.com/users/boatmeme"
+  },
+  "description": "# Pascal's Triangle\n\n![Pascal's Triangle](http://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)\n\nWikipedia article on Pascal's Triangle: http://en.wikipedia.org/wiki/Pascal's_triangle\n\nWrite a function that, given a depth (`n`), returns a **single-dimensional** array/list representing Pascal's Triangle from the first to the n-th level.\n\nFor example:\n\n```csharp\nKata.PascalsTriangle(4) == new List<int> {1, 1, 1, 1, 2, 1, 1, 3, 3, 1}\n```\n```javascript\npascalsTriangle(4) == [1, 1, 1, 1, 2, 1, 1, 3, 3, 1]\n```\n```haskell\npascalsTriangle 4 == [1, 1, 1, 1, 2, 1, 1, 3, 3, 1]\n```\n```php\npascals_triangle(4) == [1, 1, 1, 1, 2, 1, 1, 3, 3, 1]\n```\n```python\npascals_triangle(4) == [1, 1, 1, 1, 2, 1, 1, 3, 3, 1]\n```\n```ruby\npascalsTriangle(4) == [1, 1, 1, 1, 2, 1, 1, 3, 3, 1]\n```\n",
+  "totalAttempts": 55775,
+  "totalCompleted": 8142,
+  "totalStars": 431,
+  "voteScore": 787,
+  "tags": [
+    "Algorithms",
+    "Arrays",
+    "Data Types",
+    "Mathematics",
+    "Logic",
+    "Numbers"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 2
+  }
+}

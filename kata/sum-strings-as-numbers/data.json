@@ -1,0 +1,52 @@
+{
+  "id": "5324945e2ece5e1f32000370",
+  "name": "Sum Strings as Numbers",
+  "slug": "sum-strings-as-numbers",
+  "category": "algorithms",
+  "publishedAt": "2014-03-15T17:58:42.203Z",
+  "approvedAt": "2014-03-31T19:33:53.949Z",
+  "languages": [
+    "javascript",
+    "csharp",
+    "php",
+    "cpp",
+    "c"
+  ],
+  "url": "https://www.codewars.com/kata/5324945e2ece5e1f32000370",
+  "rank": {
+    "id": -4,
+    "name": "4 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2014-03-15T17:56:46.451Z",
+  "createdBy": {
+    "username": "nicknovitski",
+    "url": "https://www.codewars.com/users/nicknovitski"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Given the string representations of two integers, return the string representation of the sum of those integers.\n\nFor example:\n```javascript\nsumStrings('1','2') // => '3'\n```\n```c\nstrsum(\"1\", \"2\")    /* => 3 */\n```\n\nA string representation of an integer will contain no characters besides the ten numerals \"0\" to \"9\".",
+  "totalAttempts": 286261,
+  "totalCompleted": 14738,
+  "totalStars": 821,
+  "voteScore": 1296,
+  "tags": [
+    "Algorithms",
+    "Strings",
+    "Data Types",
+    "Arithmetic",
+    "Mathematics",
+    "Logic",
+    "Numbers",
+    "Big Integers",
+    "Integers",
+    "Utilities"
+  ],
+  "contributorsWanted": false,
+  "unresolved": {
+    "issues": 5,
+    "suggestions": 4
+  }
+}

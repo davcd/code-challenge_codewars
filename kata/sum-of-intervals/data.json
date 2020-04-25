@@ -1,0 +1,63 @@
+{
+  "id": "52b7ed099cdc285c300001cd",
+  "name": "Sum of Intervals",
+  "slug": "sum-of-intervals",
+  "category": "algorithms",
+  "publishedAt": "2013-12-23T11:12:52.610Z",
+  "approvedAt": "2013-12-26T01:51:39.373Z",
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "php",
+    "python",
+    "ruby",
+    "java",
+    "cpp",
+    "clojure",
+    "csharp",
+    "elixir",
+    "dart",
+    "crystal",
+    "julia",
+    "haskell",
+    "typescript",
+    "racket",
+    "c",
+    "nasm"
+  ],
+  "url": "https://www.codewars.com/kata/52b7ed099cdc285c300001cd",
+  "rank": {
+    "id": -4,
+    "name": "4 kyu",
+    "color": "blue"
+  },
+  "createdAt": "2013-12-23T07:58:01.483Z",
+  "createdBy": {
+    "username": "xDranik",
+    "url": "https://www.codewars.com/users/xDranik"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Write a function called `sumIntervals`/`sum_intervals()` that accepts an array of intervals, and returns the sum of all the interval lengths. Overlapping intervals should only be counted once.\n\n### Intervals\n\nIntervals are represented by a pair of integers in the form of an array. The first value of the interval will always be less than the second value. Interval example: `[1, 5]` is an interval from 1 to 5. The length of this interval is 4.\n\n### Overlapping Intervals\n\nList containing overlapping intervals:\n\n```\n[\n   [1,4],\n   [7, 10],\n   [3, 5]\n]\n```\n\nThe sum of the lengths of these intervals is 7. Since [1, 4] and [3, 5] overlap, we can treat the interval as [1, 5], which has a length of 4.\n\n### Examples:\n\n```javascript\nsumIntervals( [\n   [1,2],\n   [6, 10],\n   [11, 15]\n] ); // => 9\n\nsumIntervals( [\n   [1,4],\n   [7, 10],\n   [3, 5]\n] ); // => 7\n\nsumIntervals( [\n   [1,5],\n   [10, 20],\n   [1, 6],\n   [16, 19],\n   [5, 11]\n] ); // => 19\n\n```\n```java\n// null argument\nInterval.sumIntervals(null);  // => 0\n\n// empty intervals\nInterval.sumIntervals(new int[][]{});  // => 0\nInterval.sumIntervals(new int[][]{2,2}, {5,5});  // => 0\n\n// disjoined intervals\nInterval.sumIntervals(new int[][]{\n  {1,2},{3,5}\n});  // => (2-1) + (5-3) = 3\n\n// overlapping intervals\nInterval.sumIntervals(new int[][]{\n  {1,4},{3,6},{2,8}\n});  // [1,8] => 7\n```\n```C#\n// empty intervals\nIntervals.SumIntervals(new (int, int)[]{ });  // => 0\nIntervals.SumIntervals(new (int, int)[]{ (2, 2), (5, 5)});  // => 0\n\n// disjoined intervals\nIntervals.SumIntervals(new (int, int)[]{\n  (1, 2), (3, 5)\n});  // => (2-1) + (5-3) = 3\n\n// overlapping intervals\nIntervals.SumIntervals(new (int, int)[]{\n  (1, 4), (3, 6), (2, 8)\n});  // (1,8) => 7\n```\n```cpp\nsum_intervals( {\n   {1,2},\n   {6, 10},\n   {11, 15}\n} ); // => 9\n\nsum_intervals( {\n   {1,4},\n   {7, 10},\n   {3, 5}\n} ); // => 7\n\nsum_intervals( {\n   {1,5},\n   {10, 20},\n   {1, 6},\n   {16, 19},\n   {5, 11}\n} ); // => 19\n```\n```c\nsum_intervals((const struct interval[]){\n   {1,2},\n   {6, 10},\n   {11, 15}\n}, 3); /* => 9 */\n\nsum_intervals((const struct interval[]){\n   {1,4},\n   {7, 10},\n   {3, 5}\n}, 3); /* => 7 */\n\nsum_intervals((const struct interval[]){\n   {1,5},\n   {10, 20},\n   {1, 6},\n   {16, 19},\n   {5, 11}\n}, 5); /* => 19 */\n```\n```nasm\nv1:\n    dd    1,2, \\\n          6,10, \\\n          11,15\nv2:\n    dd    1,4\n    dd    7,10\n    dd    3,5\nv3:\n    dd    1,5, 10,20, 1,6, 16,19, 5,11\n      \n    mov rdi, v1\n    mov rsi, 3\n    call sumintvls    ; EAX <- 9\n    \n    mov rdi, v2\n    mov rsi, 3\n    call sumintvls    ; EAX <- 7\n    \n    mov rdi, v3\n    mov rsi, 5\n    call sumintvls    ; EAX <- 19\n```\n```clojure\n(sum-intervals [ [1 5] [10 15] [-1 3] ]) ; => 11\n\n(sum-intervals [ [1 5] ]) ; => 4 \n```\n```typescript\nsumOfIntervals([[1, 5], [10, 15], [-1, 3]]) // => 11\n\nsumOfIntervals([[1, 5]]) // => 4 \n```\n```crystal\nsum_of_intervals([{1, 5}, {10, 15}, {-1, 3}]) # => 11\n\nsum_of_intervals([{1, 5}]) # => 4 \n```\n```elixir\nsum_of_intervals([{1, 5}, {10, 15}, {-1, 3}]) # => 11\n\nsum_of_intervals([{1, 5}]) # => 4 \n```\n```haskell\nsumOfIntervals([(1, 5}, (10, 15}, (-1, 3)]) -- => 11\n\nsumOfIntervals([(1, 5)]) -- => 4 \n```\n```julia\nsumofintervals([(1, 5}, (10, 15}, (-1, 3)]) # => 11\n\nsumofintervals([(1, 5)]) # => 4 \n```\n```dart\nsumOfIntervals([[1, 5], [10, 15], [-1, 3]]) // => 11\n\nsumOfIntervals([[1, 5]]) // => 4 \n```\n```racket\n(sum-intervals (list (list -1 21) (list -59 -45))) ;; 36\n(sum-intervals (list (list 1 5) (list 10 15) (list -1 3))) ;; 11\n(sum-intervals (list (list 1 2) (list 6 10) (list 11 15))) ;; 36\n```",
+  "totalAttempts": 87018,
+  "totalCompleted": 9871,
+  "totalStars": 668,
+  "voteScore": 1137,
+  "tags": [
+    "Algorithms",
+    "Logic",
+    "Aggregations",
+    "Arithmetic",
+    "Mathematics",
+    "Numbers",
+    "Data Types",
+    "Integers"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 2,
+    "suggestions": 6
+  }
+}
