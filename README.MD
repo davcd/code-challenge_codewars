@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>2072</td>
+      <td>2127</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>1073</td>
+      <td>1105</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>46</td>
+      <td>47</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -103,11 +103,11 @@
     <td>5</td>
     <td>6</td>
     <td>-</td>
-    <td>3</td>
+    <td>4</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>17</td>
+    <td>18</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -136,23 +136,23 @@
   <tbody></tbody>
   <tr>
     <td>Algorithms</td>
-    <td>29</td>
+    <td>30</td>
   </tr>
   <tr>
     <td>Fundamentals</td>
-    <td>28</td>
+    <td>29</td>
   </tr>
   <tr>
     <td>Data Types</td>
-    <td>27</td>
+    <td>28</td>
   </tr>
   <tr>
     <td>Logic</td>
-    <td>22</td>
+    <td>23</td>
   </tr>
   <tr>
     <td>Strings</td>
-    <td>16</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>Numbers</td>
@@ -168,7 +168,7 @@
   </tr>
   <tr>
     <td>Basic Language Features</td>
-    <td>9</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>Control Flow</td>
@@ -337,6 +337,11 @@
     </tr>
   </thead>
   <tbody></tbody>
+  <tr>
+    <td>4 kyu</td>
+    <td><a href="./kata/vigenere-cipher-helper">Vigenère Cipher Helper</a></td>
+    <td>2020-05-05</td>
+  </tr>
   <tr>
     <td>4 kyu</td>
     <td><a href="./kata/matrix-determinant">Matrix Determinant</a></td>
