@@ -1,0 +1,46 @@
+{
+  "id": "535474308bb336c9980006f2",
+  "name": "Greet Me",
+  "slug": "greet-me",
+  "category": "reference",
+  "publishedAt": "2014-04-21T01:28:16.508Z",
+  "approvedAt": "2014-05-12T19:42:25.773Z",
+  "languages": [
+    "ruby",
+    "javascript",
+    "java",
+    "haskell",
+    "csharp",
+    "python"
+  ],
+  "url": "https://www.codewars.com/kata/535474308bb336c9980006f2",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2014-04-21T01:28:17.760Z",
+  "createdBy": {
+    "username": "ogryzek",
+    "url": "https://www.codewars.com/users/ogryzek"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Write a method that takes one argument as name and then greets that name, capitalized and ends with an exclamation point.\n\nExample:\n\n```\n\"riley\" --> \"Hello Riley!\"\n\"JACK\"  --> \"Hello Jack!\"\n```",
+  "totalAttempts": 26640,
+  "totalCompleted": 7258,
+  "totalStars": 57,
+  "voteScore": 386,
+  "tags": [
+    "Fundamentals",
+    "Strings",
+    "Data Types"
+  ],
+  "contributorsWanted": false,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

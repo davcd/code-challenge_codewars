@@ -1,0 +1,51 @@
+{
+  "id": "577ff15ad648a14b780000e7",
+  "name": "Welcome!",
+  "slug": "welcome",
+  "category": "reference",
+  "publishedAt": "2016-07-08T21:12:04.106Z",
+  "approvedAt": "2016-07-11T16:49:47.830Z",
+  "languages": [
+    "javascript",
+    "ruby",
+    "python",
+    "csharp",
+    "coffeescript",
+    "java",
+    "elixir",
+    "c",
+    "rust"
+  ],
+  "url": "https://www.codewars.com/kata/577ff15ad648a14b780000e7",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2016-07-08T18:30:50.943Z",
+  "createdBy": {
+    "username": "lucymonie",
+    "url": "https://www.codewars.com/users/lucymonie"
+  },
+  "approvedBy": {
+    "username": "donaldsebleung",
+    "url": "https://www.codewars.com/users/donaldsebleung"
+  },
+  "description": "Your start-up's BA has told marketing that your website has a large audience in Scandinavia and surrounding countries. Marketing thinks it would be great to welcome visitors to the site in their own language. Luckily you already use an API that detects the user's location, so this is an easy win. \n\n### The Task\n- Think of a way to store the languages as a database (eg an object). The languages are listed below so you can copy and paste!\n- Write a 'welcome' function that takes a parameter 'language' (always a string), and returns a greeting - if you have it in your database. It should default to English if the language is not in the database, or in the event of an invalid input.\n\n### The Database\n\n```javascript\nenglish: 'Welcome',\nczech: 'Vitejte',\ndanish: 'Velkomst',\ndutch: 'Welkom',\nestonian: 'Tere tulemast',\nfinnish: 'Tervetuloa',\nflemish: 'Welgekomen',\nfrench: 'Bienvenue',\ngerman: 'Willkommen',\nirish: 'Failte',\nitalian: 'Benvenuto',\nlatvian: 'Gaidits',\nlithuanian: 'Laukiamas',\npolish: 'Witamy',\nspanish: 'Bienvenido',\nswedish: 'Valkommen',\nwelsh: 'Croeso'\n```\n```python\n'english': 'Welcome',\n'czech': 'Vitejte',\n'danish': 'Velkomst',\n'dutch': 'Welkom',\n'estonian': 'Tere tulemast',\n'finnish': 'Tervetuloa',\n'flemish': 'Welgekomen',\n'french': 'Bienvenue',\n'german': 'Willkommen',\n'irish': 'Failte',\n'italian': 'Benvenuto',\n'latvian': 'Gaidits',\n'lithuanian': 'Laukiamas',\n'polish': 'Witamy',\n'spanish': 'Bienvenido',\n'swedish': 'Valkommen',\n'welsh': 'Croeso'\n```\n```ruby\n'english'=>'Welcome',\n'czech'=>'Vitejte',\n'danish'=>'Velkomst',\n'dutch'=>'Welkom',\n'estonian'=>'Tere tulemast',\n'finnish'=>'Tervetuloa',\n'flemish'=>'Welgekomen',\n'french'=>'Bienvenue',\n'german'=>'Willkommen',\n'irish'=>'Failte',\n'italian'=>'Benvenuto',\n'latvian'=>'Gaidits',\n'lithuanian'=>'Laukiamas',\n'polish'=>'Witamy',\n'spanish'=>'Bienvenido',\n'swedish'=>'Valkommen',\n'welsh'=>'Croeso'\n```\n```csharp\n{\"english\", \"Welcome\"},\n{\"czech\", \"Vitejte\"},\n{\"danish\", \"Velkomst\"},\n{\"dutch\", \"Welkom\"},\n{\"estonian\", \"Tere tulemast\"},\n{\"finnish\", \"Tervetuloa\"},\n{\"flemish\", \"Welgekomen\"},\n{\"french\", \"Bienvenue\"},\n{\"german\", \"Willkommen\"},\n{\"irish\", \"Failte\"},\n{\"italian\", \"Benvenuto\"},\n{\"latvian\", \"Gaidits\"},\n{\"lithuanian\", \"Laukiamas\"},\n{\"polish\", \"Witamy\"},\n{\"spanish\", \"Bienvenido\"},\n{\"swedish\", \"Valkommen\"},\n{\"welsh\", \"Croeso\"}\n```\n```elixir\nenglish: \"Welcome\",\nczech: \"Vitejte\",\ndanish: \"Velkomst\",\ndutch: \"Welkom\",\nestonian: \"Tere tulemast\",\nfinnish: \"Tervetuloa\",\nflemish: \"Welgekomen\",\nfrench: \"Bienvenue\",\ngerman: \"Willkommen\",\nirish: \"Failte\",\nitalian: \"Benvenuto\",\nlatvian: \"Gaidits\",\nlithuanian: \"Laukiamas\",\npolish: \"Witamy\",\nspanish: \"Bienvenido\",\nswedish: \"Valkommen\",\nwelsh: \"Croeso\"\n```\n``` java\nenglish: \"Welcome\",\nczech: \"Vitejte\",\ndanish: \"Velkomst\",\ndutch: \"Welkom\",\nestonian: \"Tere tulemast\",\nfinnish: \"Tervetuloa\",\nflemish: \"Welgekomen\",\nfrench: \"Bienvenue\",\ngerman: \"Willkommen\",\nirish: \"Failte\",\nitalian: \"Benvenuto\",\nlatvian: \"Gaidits\",\nlithuanian: \"Laukiamas\",\npolish: \"Witamy\",\nspanish: \"Bienvenido\",\nswedish: \"Valkommen\",\nwelsh: \"Croeso\"\n```\n```rust\n(\"english\", \"Welcome\"),\n(\"czech\", \"Vitejte\"),\n(\"danish\", \"Velkomst\"),\n(\"dutch\", \"Welkom\"),\n(\"estonian\", \"Tere tulemast\"),\n(\"finnish\", \"Tervetuloa\"),\n(\"flemish\", \"Welgekomen\"),\n(\"french\", \"Bienvenue\"),\n(\"german\", \"Willkommen\"),\n(\"irish\", \"Failte\"),\n(\"italian\", \"Benvenuto\"),\n(\"latvian\", \"Gaidits\"),\n(\"lithuanian\", \"Laukiamas\"),\n(\"polish\", \"Witamy\"),\n(\"spanish\", \"Bienvenido\"),\n(\"swedish\", \"Valkommen\"),\n(\"welsh\", \"Croeso\")\n```\n\n\nPossible invalid inputs include:\n~~~~\nIP_ADDRESS_INVALID - not a valid ipv4 or ipv6 ip address\nIP_ADDRESS_NOT_FOUND - ip address not in the database\nIP_ADDRESS_REQUIRED - no ip address was supplied\n~~~~\n",
+  "totalAttempts": 43156,
+  "totalCompleted": 11730,
+  "totalStars": 211,
+  "voteScore": 1379,
+  "tags": [
+    "Fundamentals",
+    "Hashes",
+    "Data Structures",
+    "Objects",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 0
+  }
+}

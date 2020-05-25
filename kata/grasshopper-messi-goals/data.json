@@ -1,0 +1,46 @@
+{
+  "id": "55ca77fa094a2af31f00002a",
+  "name": "Grasshopper - Messi Goals",
+  "slug": "grasshopper-messi-goals",
+  "category": "reference",
+  "publishedAt": "2015-08-13T16:50:52.934Z",
+  "approvedAt": "2015-09-15T10:05:59.742Z",
+  "languages": [
+    "javascript",
+    "ruby",
+    "python",
+    "csharp",
+    "swift",
+    "java"
+  ],
+  "url": "https://www.codewars.com/kata/55ca77fa094a2af31f00002a",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2015-08-11T22:32:26.465Z",
+  "createdBy": {
+    "username": "danleavitt0",
+    "url": "https://www.codewars.com/users/danleavitt0"
+  },
+  "approvedBy": {
+    "username": "joh_pot",
+    "url": "https://www.codewars.com/users/joh_pot"
+  },
+  "description": "# Messi's Goal Total\n\nUse variables to find the sum of the goals Messi scored in 3 competitions\n\n## Information\n\nMessi goal scoring statistics:\n\nCompetition | Goals\n-----|------\nLa Liga | 43\nChampions League | 10\nCopa del Rey | 5\n\n## Define\n\nCreate three variables and store the appropriate values using the table above:\n\n~~~if:python,ruby\n  - `la_liga_goals`  \n  - `champions_league_goals`\n  - `copa_del_rey_goals`\n~~~  \n~~~if:javascript,csharp,swift\n  - `laLigaGoals`  \n  - `championsLeagueGoals`\n  - `copaDelReyGoals`\n~~~  \n\n\nCreate a fourth variable named `totalGoals (javascript, C#, Java) or total_goals (python, ruby)`. `totalGoals/total_goals` should store the sum of all\nof Messi's goals for this year.\n",
+  "totalAttempts": 11601,
+  "totalCompleted": 6028,
+  "totalStars": 29,
+  "voteScore": 212,
+  "tags": [
+    "Fundamentals",
+    "Variables",
+    "Basic Language Features"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 1
+  }
+}

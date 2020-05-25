@@ -1,0 +1,50 @@
+{
+  "id": "515e188a311df01cba000003",
+  "name": "Get Planet Name By ID",
+  "slug": "get-planet-name-by-id",
+  "category": "bug_fixes",
+  "publishedAt": "2013-04-05T00:19:26.829Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "ruby",
+    "coffeescript",
+    "python",
+    "csharp",
+    "swift",
+    "elixir",
+    "cpp",
+    "scala",
+    "c",
+    "haskell",
+    "rust",
+    "go"
+  ],
+  "url": "https://www.codewars.com/kata/515e188a311df01cba000003",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2013-04-05T00:19:22.346Z",
+  "createdBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "The function is not returning the correct values. Can you figure out why?\n\n```javascript\ngetPlanetName(3); // should return 'Earth'\n```\n```ruby\nget_planet_name(3) # should return 'Earth'\n```\n```python\nget_planet_name(3) # should return 'Earth'\n```\n```coffeescript\ngetPlanetName(3) # should return 'Earth'\n```\n```swift\ngetPlanetName(3) # should return 'Earth'\n```\n```scala\nget_planet_name(3); //should return \"Earth\"\n```\n```c\nget_planet_name(3); //should return \"Earth\"\n```\n```cpp\nget_planet_name(3); //should return \"Earth\"\n```\n```haskell\ngetPlanetName 3 -- should return \"Earth\"\n```\n```rust\nget_planet_name(3); // should return \"Earth\"\n```\n```go\nGetPlanetName(3) // should return 'Earth'\n```",
+  "totalAttempts": 42610,
+  "totalCompleted": 18093,
+  "totalStars": 118,
+  "voteScore": 1264,
+  "tags": [
+    "Bugs",
+    "Control Flow",
+    "Basic Language Features",
+    "Fundamentals"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 0
+  }
+}

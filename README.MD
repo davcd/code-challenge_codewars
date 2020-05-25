@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>2127</td>
+      <td>2141</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>1105</td>
+      <td>1117</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>47</td>
+      <td>53</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -85,15 +85,15 @@
     <td>javascript</td>
     <td>3 kyu</td>
     <td>-</td>
-    <td>4</td>
-    <td>4</td>
+    <td>7</td>
+    <td>5</td>
     <td>4</td>
     <td>5</td>
     <td>5</td>
     <td>4</td>
     <td>2</td>
     <td>-</td>
-    <td>28</td>
+    <td>32</td>
   </tr>
   <tr>
     <td>php</td>
@@ -108,6 +108,20 @@
     <td>-</td>
     <td>-</td>
     <td>18</td>
+  </tr>
+  <tr>
+    <td>java</td>
+    <td>8 kyu</td>
+    <td>-</td>
+    <td>1</td>
+    <td>1</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>sql</td>
@@ -135,16 +149,16 @@
   </thead>
   <tbody></tbody>
   <tr>
-    <td>Algorithms</td>
-    <td>30</td>
-  </tr>
-  <tr>
     <td>Fundamentals</td>
-    <td>29</td>
+    <td>35</td>
   </tr>
   <tr>
     <td>Data Types</td>
-    <td>28</td>
+    <td>31</td>
+  </tr>
+  <tr>
+    <td>Algorithms</td>
+    <td>30</td>
   </tr>
   <tr>
     <td>Logic</td>
@@ -152,27 +166,27 @@
   </tr>
   <tr>
     <td>Strings</td>
-    <td>17</td>
+    <td>19</td>
   </tr>
   <tr>
     <td>Numbers</td>
-    <td>14</td>
+    <td>15</td>
   </tr>
   <tr>
     <td>Arrays</td>
-    <td>13</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>Basic Language Features</td>
+    <td>12</td>
   </tr>
   <tr>
     <td>Mathematics</td>
     <td>11</td>
   </tr>
   <tr>
-    <td>Basic Language Features</td>
-    <td>10</td>
-  </tr>
-  <tr>
     <td>Control Flow</td>
-    <td>6</td>
+    <td>7</td>
   </tr>
 </table>
 <h2>Solved katas by language</h2>
@@ -288,6 +302,11 @@
   </tr>
   <tr>
     <td>7 kyu</td>
+    <td><a href="./kata/find-the-capitals">Find the Capitals</a></td>
+    <td>2020-05-24</td>
+  </tr>
+  <tr>
+    <td>7 kyu</td>
     <td><a href="./kata/coloured-triangles">Coloured Triangles</a></td>
     <td>2020-03-22</td>
   </tr>
@@ -305,6 +324,21 @@
     <td>7 kyu</td>
     <td><a href="./kata/list-filtering">List Filtering</a></td>
     <td>2020-03-13</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/get-planet-name-by-id">Get Planet Name By ID</a></td>
+    <td>2020-05-24</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/welcome">Welcome!</a></td>
+    <td>2020-05-24</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/no-loops-2-you-only-need-one">No Loops 2 - You only need one</a></td>
+    <td>2020-05-24</td>
   </tr>
   <tr>
     <td>8 kyu</td>
@@ -426,6 +460,27 @@
     <td>8 kyu</td>
     <td><a href="./kata/l1-bartender-drinks">L1: Bartender, drinks!</a></td>
     <td>2020-04-10</td>
+  </tr>
+</table>
+<h3>java</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Difficulty</th>
+      <th>Name</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+  <tr>
+    <td>7 kyu</td>
+    <td><a href="./kata/greet-me">Greet Me</a></td>
+    <td>2020-05-24</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/grasshopper-messi-goals">Grasshopper - Messi Goals</a></td>
+    <td>2020-05-24</td>
   </tr>
 </table>
 <h3>sql</h3>

@@ -1,0 +1,47 @@
+{
+  "id": "57cc40b2f8392dbf2a0003ce",
+  "name": "No Loops 2 - You only need one",
+  "slug": "no-loops-2-you-only-need-one",
+  "category": "reference",
+  "publishedAt": "2016-09-04T16:06:01.461Z",
+  "approvedAt": "2017-10-16T23:59:18.031Z",
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "python",
+    "cfml"
+  ],
+  "url": "https://www.codewars.com/kata/57cc40b2f8392dbf2a0003ce",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2016-09-04T15:41:38.509Z",
+  "createdBy": {
+    "username": "A.Partridge",
+    "url": "https://www.codewars.com/users/A.Partridge"
+  },
+  "approvedBy": {
+    "username": "Voile",
+    "url": "https://www.codewars.com/users/Voile"
+  },
+  "description": "*** No Loops Allowed ***\n\nYou will be given an array (a) and a value (x). All you need to do is check whether the provided array contains the value, without using a loop.\n\nArray can contain numbers or strings. X can be either. Return true if the array contains the value, false if not. With strings you will need to account for case.\n\nLooking for more, loop-restrained fun? Check out the other kata in the series:\n\n<a> https://www.codewars.com/kata/no-loops-1-small-enough</a>\n\n<a> https://www.codewars.com/kata/no-loops-3-copy-within</a>",
+  "totalAttempts": 10062,
+  "totalCompleted": 4465,
+  "totalStars": 37,
+  "voteScore": 657,
+  "tags": [
+    "Fundamentals",
+    "Booleans",
+    "Data Types",
+    "Strings",
+    "Numbers",
+    "Arrays"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 0,
+    "suggestions": 2
+  }
+}

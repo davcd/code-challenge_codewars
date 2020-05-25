@@ -1,0 +1,44 @@
+{
+  "id": "53573877d5493b4d6e00050c",
+  "name": "Find the Capitals",
+  "slug": "find-the-capitals",
+  "category": "reference",
+  "publishedAt": "2014-04-24T01:34:03.777Z",
+  "approvedAt": "2014-10-21T23:50:41.527Z",
+  "languages": [
+    "ruby",
+    "javascript",
+    "coffeescript",
+    "python"
+  ],
+  "url": "https://www.codewars.com/kata/53573877d5493b4d6e00050c",
+  "rank": {
+    "id": -7,
+    "name": "7 kyu",
+    "color": "white"
+  },
+  "createdAt": "2014-04-23T03:50:15.700Z",
+  "createdBy": {
+    "username": "ogryzek",
+    "url": "https://www.codewars.com/users/ogryzek"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Write a method that takes a sequence of objects with two keys each: country or state, and capital. Keys may be symbols or strings\n\nThe method should return an array of sentences declaring the state or country and its capital.\n\nExamples\n```ruby\nstate_capitals = [{state: 'Maine', capital: 'Augusta'}]\ncapital(state_capitals)[0] # returns \"The capital of Maine is Augusta\"\n\ncountry_capitals = [{'country' => 'Spain', 'capital' => 'Madrid'}]\ncapital(country_capitals)[0] # returns \"The capital of Spain is Madrid\"\n\nmixed_capitals: [{\"state\" => 'Maine', capital: 'Augusta'}, {country: 'Spain', \"capital\" => \"Madrid\"}]\ncapital(mixed_capitals)[0] # returns \"The capital of Maine is Augusta\"\n```\n\n```javascript\nstate_capitals = [{state: 'Maine', capital: 'Augusta'}]\ncapital(state_capitals)[0] // returns \"The capital of Maine is Augusta\"\n\ncountry_capitals = [{'country' : 'Spain', 'capital' : 'Madrid'}]\ncapital(country_capitals)[0]  // returns \"The capital of Spain is Madrid\"\n\nmixed_capitals: [{\"state\" : 'Maine', capital: 'Augusta'}, {country: 'Spain', \"capital\" : \"Madrid\"}]\ncapital(mixed_capitals)[1] // returns \"The capital of Spain is Madrid\"\n```\n\n```python\n[{'state': 'Maine', 'capital': 'Augusta'}] --> [\"The capital of Maine is Augusta\"]\n[{'country' : 'Spain', 'capital' : 'Madrid'}] --> [\"The capital of Spain is Madrid\"]\n[{\"state\" : 'Maine', 'capital': 'Augusta'}, {'country': 'Spain', \"capital\" : \"Madrid\"}] --> [\"The capital of Maine is Augusta\", \"The capital of Spain is Madrid\"]\n```",
+  "totalAttempts": 11074,
+  "totalCompleted": 1540,
+  "totalStars": 42,
+  "voteScore": 98,
+  "tags": [
+    "Fundamentals",
+    "Hashes",
+    "Data Structures"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 2,
+    "suggestions": 0
+  }
+}
