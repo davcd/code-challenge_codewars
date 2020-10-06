@@ -17,7 +17,7 @@
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>1117</td>
+      <td>1118</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
