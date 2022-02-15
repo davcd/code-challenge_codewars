@@ -1,0 +1,64 @@
+{
+  "id": "5168bb5dfe9a00b126000018",
+  "name": "Reversed Strings",
+  "slug": "reversed-strings",
+  "category": "reference",
+  "publishedAt": "2013-04-13T02:22:17.697Z",
+  "approvedAt": null,
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "ruby",
+    "python",
+    "dart",
+    "php",
+    "csharp",
+    "java",
+    "nim",
+    "haskell",
+    "rust",
+    "groovy",
+    "scala",
+    "cpp",
+    "go",
+    "racket",
+    "typescript",
+    "r",
+    "prolog",
+    "nasm",
+    "swift",
+    "cfml",
+    "julia",
+    "elixir",
+    "crystal",
+    "perl",
+    "cobol",
+    "c"
+  ],
+  "url": "https://www.codewars.com/kata/5168bb5dfe9a00b126000018",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2013-04-13T01:56:45.991Z",
+  "createdBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "Complete the solution so that it reverses the string passed into it. \n\n```\n'world'  =>  'dlrow'\n'word'   =>  'drow'\n```",
+  "totalAttempts": 271963,
+  "totalCompleted": 133212,
+  "totalStars": 778,
+  "voteScore": 9157,
+  "tags": [
+    "Fundamentals",
+    "Strings",
+    "Data Types"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "5583090cbe83f4fd8c000051",
+  "name": "Convert number to reversed array of digits",
+  "slug": "convert-number-to-reversed-array-of-digits",
+  "category": "reference",
+  "publishedAt": "2015-06-18T18:08:24.254Z",
+  "approvedAt": "2015-07-03T14:56:11.953Z",
+  "languages": [
+    "javascript",
+    "coffeescript",
+    "python",
+    "clojure",
+    "ruby",
+    "haskell",
+    "java",
+    "csharp",
+    "cpp",
+    "elixir",
+    "swift",
+    "typescript",
+    "prolog",
+    "crystal",
+    "kotlin",
+    "cfml",
+    "rust",
+    "julia",
+    "r",
+    "c",
+    "cobol"
+  ],
+  "url": "https://www.codewars.com/kata/5583090cbe83f4fd8c000051",
+  "rank": {
+    "id": -8,
+    "name": "8 kyu",
+    "color": "white"
+  },
+  "createdAt": "2015-06-18T18:08:12.895Z",
+  "createdBy": {
+    "username": "emporio",
+    "url": "https://www.codewars.com/users/emporio"
+  },
+  "approvedBy": {
+    "username": "jhoffner",
+    "url": "https://www.codewars.com/users/jhoffner"
+  },
+  "description": "# Convert number to reversed array of digits\n\nGiven a random non-negative number, you have to return the digits of this number within an array in reverse order.\n\n## Example:\n\n```\n348597 => [7,9,5,8,4,3]\n0 => [0]\n```",
+  "totalAttempts": 225422,
+  "totalCompleted": 63586,
+  "totalStars": 794,
+  "voteScore": 5288,
+  "tags": [
+    "Fundamentals",
+    "Numbers",
+    "Data Types",
+    "Arrays"
+  ],
+  "contributorsWanted": true,
+  "unresolved": {
+    "issues": 1,
+    "suggestions": 0
+  }
+}

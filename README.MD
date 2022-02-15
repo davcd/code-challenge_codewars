@@ -13,15 +13,15 @@
     </tr>
     <tr> 
       <td>Score</td>
-      <td>2141</td>
+      <td>2147</td>
     </tr>
     <tr> 
       <td>Honor</td>
-      <td>1118</td>
+      <td>1124</td>
     </tr>
     <tr> 
       <td>Completed katas</td>
-      <td>53</td>
+      <td>56</td>
     </tr>
     <tr> 
       <td>Authored katas</td>
@@ -85,7 +85,7 @@
     <td>javascript</td>
     <td>3 kyu</td>
     <td>-</td>
-    <td>7</td>
+    <td>10</td>
     <td>5</td>
     <td>4</td>
     <td>5</td>
@@ -93,7 +93,7 @@
     <td>4</td>
     <td>2</td>
     <td>-</td>
-    <td>32</td>
+    <td>35</td>
   </tr>
   <tr>
     <td>php</td>
@@ -150,39 +150,39 @@
   <tbody></tbody>
   <tr>
     <td>Fundamentals</td>
-    <td>35</td>
+    <td>38</td>
   </tr>
   <tr>
     <td>Data Types</td>
-    <td>31</td>
+    <td>33</td>
   </tr>
   <tr>
     <td>Algorithms</td>
-    <td>30</td>
+    <td>31</td>
   </tr>
   <tr>
     <td>Logic</td>
-    <td>23</td>
+    <td>24</td>
   </tr>
   <tr>
     <td>Strings</td>
-    <td>19</td>
+    <td>20</td>
   </tr>
   <tr>
     <td>Numbers</td>
-    <td>15</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>Arrays</td>
-    <td>14</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Mathematics</td>
+    <td>12</td>
   </tr>
   <tr>
     <td>Basic Language Features</td>
     <td>12</td>
-  </tr>
-  <tr>
-    <td>Mathematics</td>
-    <td>11</td>
   </tr>
   <tr>
     <td>Control Flow</td>
@@ -324,6 +324,21 @@
     <td>7 kyu</td>
     <td><a href="./kata/list-filtering">List Filtering</a></td>
     <td>2020-03-13</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/reversed-strings">Reversed Strings</a></td>
+    <td>2022-01-25</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/convert-number-to-reversed-array-of-digits">Convert number to reversed array of digits</a></td>
+    <td>2022-01-25</td>
+  </tr>
+  <tr>
+    <td>8 kyu</td>
+    <td><a href="./kata/grasshopper-check-for-factor">Grasshopper - Check for factor</a></td>
+    <td>2022-01-25</td>
   </tr>
   <tr>
     <td>8 kyu</td>
